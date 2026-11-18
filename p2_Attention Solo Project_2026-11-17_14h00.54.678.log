@@ -1,0 +1,1944 @@
+0.8566 	ERROR 	Plugin `psychopy-cedrus` entry point requires module `psychopy_cedrus`, but it cannot be imported.
+24.6611 	INFO 	Loaded monitor calibration from ['2025_08_12 09:40']
+24.7935 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1470, 956]. Using actual size
+24.8579 	INFO 	Using renderer 'Apple M4' for graphics
+24.8579 	INFO 	OpenGL version supported by driver is 2..
+24.8766 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x317ef1450>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x317ef13d0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x31942da90>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+24.8766 	EXP 	window1: backgroundImage = ''
+24.8766 	EXP 	window1: backgroundFit = 'none'
+25.0148 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+25.0148 	EXP 	window1: recordFrameIntervals = False
+25.1873 	EXP 	window1: recordFrameIntervals = True
+26.8548 	EXP 	window1: recordFrameIntervals = False
+26.8548 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+27.2738 	INFO 	keyboard.Keyboard is using ptb backend.
+27.2738 	EXP 	Attention Solo Project: status = STARTED
+27.3070 	EXP 	Created instruction_key = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instruction_key', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.3095 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+27.3112 	EXP 	Created leftbox = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='leftbox', opacity=1, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+27.3128 	EXP 	Created rightbox = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='rightbox', opacity=1, ori=0.0, pos=array([0.5, 0. ]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+27.3156 	EXP 	Created cue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1.0, name='cue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+27.3176 	EXP 	Created target = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1.0, name='target', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.12, 0.12]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0364 	INFO 	Keyboard events cleared
+0.0364 	EXP 	instruction_key: autoDraw = True
+2.7330 	DATA 	Keypress: space
+2.7450 	EXP 	Device response: <KeyPress from None: t=2.7292895416649117, value=space, duration=None>
+2.7473 	EXP 	Imported IOR Conditions.xlsx as conditions, 16 conditions, 6 params
+2.7477 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.7552 	EXP 	instruction_key: autoDraw = False
+2.7552 	EXP 	fixation: autoDraw = True
+2.7552 	EXP 	leftbox: autoDraw = True
+2.7552 	EXP 	rightbox: autoDraw = True
+2.9033 	EXP 	Device response: <KeyPress from None: t=2.7292895416649117, value=space, duration=0.16053654166898923>
+3.2536 	EXP 	cue: autoDraw = True
+3.2702 	EXP 	fixation: autoDraw = False
+3.3537 	EXP 	cue: autoDraw = False
+3.5535 	INFO 	Keyboard events cleared
+3.5535 	EXP 	target: autoDraw = True
+3.8603 	DATA 	Keypress: space
+3.8699 	EXP 	Device response: <KeyPress from None: t=3.8552469999995083, value=space, duration=None>
+3.8700 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3.8868 	EXP 	fixation: autoDraw = False
+3.8868 	EXP 	leftbox: autoDraw = False
+3.8868 	EXP 	rightbox: autoDraw = False
+3.8868 	EXP 	cue: autoDraw = False
+3.8868 	EXP 	target: autoDraw = False
+3.8868 	EXP 	fixation: autoDraw = True
+3.8868 	EXP 	leftbox: autoDraw = True
+3.8868 	EXP 	rightbox: autoDraw = True
+4.0370 	EXP 	Device response: <KeyPress from None: t=3.8552469999995083, value=space, duration=0.18034166666620877>
+4.3699 	EXP 	cue: autoDraw = True
+4.3866 	EXP 	fixation: autoDraw = False
+4.4702 	EXP 	cue: autoDraw = False
+4.8702 	INFO 	Keyboard events cleared
+4.8702 	EXP 	target: autoDraw = True
+5.1996 	DATA 	Keypress: space
+5.2041 	EXP 	Device response: <KeyPress from None: t=5.196237249998376, value=space, duration=None>
+5.2042 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+5.2201 	EXP 	fixation: autoDraw = False
+5.2201 	EXP 	leftbox: autoDraw = False
+5.2201 	EXP 	rightbox: autoDraw = False
+5.2201 	EXP 	cue: autoDraw = False
+5.2201 	EXP 	target: autoDraw = False
+5.2201 	EXP 	fixation: autoDraw = True
+5.2201 	EXP 	leftbox: autoDraw = True
+5.2201 	EXP 	rightbox: autoDraw = True
+5.3696 	EXP 	Device response: <KeyPress from None: t=5.196237249998376, value=space, duration=0.16827595833456144>
+5.7035 	EXP 	cue: autoDraw = True
+5.7200 	EXP 	fixation: autoDraw = False
+5.8038 	EXP 	cue: autoDraw = False
+5.9031 	INFO 	Keyboard events cleared
+5.9030 	EXP 	target: autoDraw = True
+6.2036 	EXP 	Device response: <KeyPress from None: t=6.201229624999542, value=space, duration=None>
+6.2036 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+6.2052 	DATA 	Keypress: space
+6.2194 	EXP 	fixation: autoDraw = False
+6.2194 	EXP 	leftbox: autoDraw = False
+6.2194 	EXP 	rightbox: autoDraw = False
+6.2194 	EXP 	cue: autoDraw = False
+6.2194 	EXP 	target: autoDraw = False
+6.2194 	EXP 	fixation: autoDraw = True
+6.2194 	EXP 	leftbox: autoDraw = True
+6.2194 	EXP 	rightbox: autoDraw = True
+6.3870 	EXP 	Device response: <KeyPress from None: t=6.201229624999542, value=space, duration=0.1762938749998284>
+6.7034 	EXP 	cue: autoDraw = True
+6.7202 	EXP 	fixation: autoDraw = False
+6.8038 	EXP 	cue: autoDraw = False
+7.0038 	INFO 	Keyboard events cleared
+7.0037 	EXP 	target: autoDraw = True
+7.3373 	EXP 	Device response: <KeyPress from None: t=7.3354014583310345, value=space, duration=None>
+7.3373 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+7.3388 	DATA 	Keypress: space
+7.3529 	EXP 	fixation: autoDraw = False
+7.3529 	EXP 	leftbox: autoDraw = False
+7.3529 	EXP 	rightbox: autoDraw = False
+7.3529 	EXP 	cue: autoDraw = False
+7.3529 	EXP 	target: autoDraw = False
+7.3529 	EXP 	fixation: autoDraw = True
+7.3529 	EXP 	leftbox: autoDraw = True
+7.3529 	EXP 	rightbox: autoDraw = True
+7.5038 	EXP 	Device response: <KeyPress from None: t=7.3354014583310345, value=space, duration=0.16812766666771495>
+7.8370 	EXP 	cue: autoDraw = True
+7.8534 	EXP 	fixation: autoDraw = False
+7.9533 	EXP 	cue: autoDraw = False
+8.2369 	INFO 	Keyboard events cleared
+8.2369 	EXP 	target: autoDraw = True
+8.5035 	EXP 	Device response: <KeyPress from None: t=8.502107708332915, value=space, duration=None>
+8.5036 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+8.5052 	DATA 	Keypress: space
+8.5193 	EXP 	fixation: autoDraw = False
+8.5193 	EXP 	leftbox: autoDraw = False
+8.5193 	EXP 	rightbox: autoDraw = False
+8.5193 	EXP 	cue: autoDraw = False
+8.5193 	EXP 	target: autoDraw = False
+8.5193 	EXP 	fixation: autoDraw = True
+8.5193 	EXP 	leftbox: autoDraw = True
+8.5193 	EXP 	rightbox: autoDraw = True
+8.6696 	EXP 	Device response: <KeyPress from None: t=8.502107708332915, value=space, duration=0.16333316666714381>
+9.0035 	EXP 	cue: autoDraw = True
+9.0201 	EXP 	fixation: autoDraw = False
+9.1034 	EXP 	cue: autoDraw = False
+9.5035 	INFO 	Keyboard events cleared
+9.5034 	EXP 	target: autoDraw = True
+9.7644 	DATA 	Keypress: space
+9.7699 	EXP 	Device response: <KeyPress from None: t=9.76113066666585, value=space, duration=None>
+9.7699 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+9.7867 	EXP 	fixation: autoDraw = False
+9.7867 	EXP 	leftbox: autoDraw = False
+9.7867 	EXP 	rightbox: autoDraw = False
+9.7867 	EXP 	cue: autoDraw = False
+9.7867 	EXP 	target: autoDraw = False
+9.7867 	EXP 	fixation: autoDraw = True
+9.7867 	EXP 	leftbox: autoDraw = True
+9.7867 	EXP 	rightbox: autoDraw = True
+9.9532 	EXP 	Device response: <KeyPress from None: t=9.76113066666585, value=space, duration=0.17630316666691215>
+10.2700 	EXP 	cue: autoDraw = True
+10.2867 	EXP 	fixation: autoDraw = False
+10.3705 	EXP 	cue: autoDraw = False
+10.5700 	INFO 	Keyboard events cleared
+10.5699 	EXP 	target: autoDraw = True
+10.8702 	EXP 	Device response: <KeyPress from None: t=10.870025500000338, value=space, duration=None>
+10.8703 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+10.8730 	DATA 	Keypress: space
+10.8862 	EXP 	fixation: autoDraw = False
+10.8862 	EXP 	leftbox: autoDraw = False
+10.8862 	EXP 	rightbox: autoDraw = False
+10.8862 	EXP 	cue: autoDraw = False
+10.8862 	EXP 	target: autoDraw = False
+10.8862 	EXP 	fixation: autoDraw = True
+10.8862 	EXP 	leftbox: autoDraw = True
+10.8862 	EXP 	rightbox: autoDraw = True
+11.0536 	EXP 	Device response: <KeyPress from None: t=10.870025500000338, value=space, duration=0.1753883749988745>
+11.3701 	EXP 	cue: autoDraw = True
+11.3866 	EXP 	fixation: autoDraw = False
+11.4699 	EXP 	cue: autoDraw = False
+11.7701 	INFO 	Keyboard events cleared
+11.7701 	EXP 	target: autoDraw = True
+12.0443 	DATA 	Keypress: space
+12.0531 	EXP 	Device response: <KeyPress from None: t=12.041086333334533, value=space, duration=None>
+12.0532 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+12.0702 	EXP 	fixation: autoDraw = False
+12.0702 	EXP 	leftbox: autoDraw = False
+12.0702 	EXP 	rightbox: autoDraw = False
+12.0702 	EXP 	cue: autoDraw = False
+12.0702 	EXP 	target: autoDraw = False
+12.0702 	EXP 	fixation: autoDraw = True
+12.0702 	EXP 	leftbox: autoDraw = True
+12.0702 	EXP 	rightbox: autoDraw = True
+12.2537 	EXP 	Device response: <KeyPress from None: t=12.041086333334533, value=space, duration=0.20440370833239285>
+12.5535 	EXP 	cue: autoDraw = True
+12.5702 	EXP 	fixation: autoDraw = False
+12.6533 	EXP 	cue: autoDraw = False
+13.0535 	INFO 	Keyboard events cleared
+13.0534 	EXP 	target: autoDraw = True
+13.2901 	DATA 	Keypress: space
+13.3034 	EXP 	Device response: <KeyPress from None: t=13.287057166664454, value=space, duration=None>
+13.3034 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+13.3195 	EXP 	fixation: autoDraw = False
+13.3195 	EXP 	leftbox: autoDraw = False
+13.3195 	EXP 	rightbox: autoDraw = False
+13.3195 	EXP 	cue: autoDraw = False
+13.3195 	EXP 	target: autoDraw = False
+13.3195 	EXP 	fixation: autoDraw = True
+13.3195 	EXP 	leftbox: autoDraw = True
+13.3195 	EXP 	rightbox: autoDraw = True
+13.4699 	EXP 	Device response: <KeyPress from None: t=13.287057166664454, value=space, duration=0.17231462500058115>
+13.8038 	EXP 	cue: autoDraw = True
+13.8202 	EXP 	fixation: autoDraw = False
+13.9034 	EXP 	cue: autoDraw = False
+14.0034 	INFO 	Keyboard events cleared
+14.0033 	EXP 	target: autoDraw = True
+14.3073 	DATA 	Keypress: space
+14.3197 	EXP 	Device response: <KeyPress from None: t=14.304032874999393, value=space, duration=None>
+14.3197 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+14.3369 	EXP 	fixation: autoDraw = False
+14.3369 	EXP 	leftbox: autoDraw = False
+14.3369 	EXP 	rightbox: autoDraw = False
+14.3369 	EXP 	cue: autoDraw = False
+14.3369 	EXP 	target: autoDraw = False
+14.3369 	EXP 	fixation: autoDraw = True
+14.3369 	EXP 	leftbox: autoDraw = True
+14.3369 	EXP 	rightbox: autoDraw = True
+14.4705 	EXP 	Device response: <KeyPress from None: t=14.304032874999393, value=space, duration=0.16432849999910104>
+14.8200 	EXP 	cue: autoDraw = True
+14.8366 	EXP 	fixation: autoDraw = False
+14.9200 	EXP 	cue: autoDraw = False
+15.2203 	INFO 	Keyboard events cleared
+15.2203 	EXP 	target: autoDraw = True
+15.4570 	DATA 	Keypress: space
+15.4695 	EXP 	Device response: <KeyPress from None: t=15.454012874997716, value=space, duration=None>
+15.4696 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+15.4868 	EXP 	fixation: autoDraw = False
+15.4868 	EXP 	leftbox: autoDraw = False
+15.4868 	EXP 	rightbox: autoDraw = False
+15.4868 	EXP 	cue: autoDraw = False
+15.4868 	EXP 	target: autoDraw = False
+15.4868 	EXP 	fixation: autoDraw = True
+15.4868 	EXP 	leftbox: autoDraw = True
+15.4868 	EXP 	rightbox: autoDraw = True
+15.6368 	EXP 	Device response: <KeyPress from None: t=15.454012874997716, value=space, duration=0.18036512500111712>
+15.9701 	EXP 	cue: autoDraw = True
+15.9867 	EXP 	fixation: autoDraw = False
+16.0700 	EXP 	cue: autoDraw = False
+16.2701 	INFO 	Keyboard events cleared
+16.2700 	EXP 	target: autoDraw = True
+16.5702 	EXP 	Device response: <KeyPress from None: t=16.565990999999485, value=space, duration=None>
+16.5702 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+16.5706 	DATA 	Keypress: space
+16.5860 	EXP 	fixation: autoDraw = False
+16.5860 	EXP 	leftbox: autoDraw = False
+16.5860 	EXP 	rightbox: autoDraw = False
+16.5860 	EXP 	cue: autoDraw = False
+16.5860 	EXP 	target: autoDraw = False
+16.5860 	EXP 	fixation: autoDraw = True
+16.5860 	EXP 	leftbox: autoDraw = True
+16.5860 	EXP 	rightbox: autoDraw = True
+16.7532 	EXP 	Device response: <KeyPress from None: t=16.565990999999485, value=space, duration=0.17625604166823905>
+17.0698 	EXP 	cue: autoDraw = True
+17.0869 	EXP 	fixation: autoDraw = False
+17.1700 	EXP 	cue: autoDraw = False
+17.2701 	INFO 	Keyboard events cleared
+17.2701 	EXP 	target: autoDraw = True
+17.5651 	DATA 	Keypress: space
+17.5698 	EXP 	Device response: <KeyPress from None: t=17.56196691666628, value=space, duration=None>
+17.5698 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+17.5868 	EXP 	fixation: autoDraw = False
+17.5868 	EXP 	leftbox: autoDraw = False
+17.5868 	EXP 	rightbox: autoDraw = False
+17.5868 	EXP 	cue: autoDraw = False
+17.5868 	EXP 	target: autoDraw = False
+17.5868 	EXP 	fixation: autoDraw = True
+17.5868 	EXP 	leftbox: autoDraw = True
+17.5868 	EXP 	rightbox: autoDraw = True
+17.7530 	EXP 	Device response: <KeyPress from None: t=17.56196691666628, value=space, duration=0.17629966666572727>
+18.0700 	EXP 	cue: autoDraw = True
+18.0866 	EXP 	fixation: autoDraw = False
+18.1701 	EXP 	cue: autoDraw = False
+18.5700 	INFO 	Keyboard events cleared
+18.5699 	EXP 	target: autoDraw = True
+18.6034 	EXP 	Device response: <KeyPress from None: t=18.60301954166789, value=space, duration=None>
+18.6034 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+18.6062 	DATA 	Keypress: space
+18.6194 	EXP 	fixation: autoDraw = False
+18.6194 	EXP 	leftbox: autoDraw = False
+18.6194 	EXP 	rightbox: autoDraw = False
+18.6194 	EXP 	cue: autoDraw = False
+18.6194 	EXP 	target: autoDraw = False
+18.6194 	EXP 	fixation: autoDraw = True
+18.6194 	EXP 	leftbox: autoDraw = True
+18.6194 	EXP 	rightbox: autoDraw = True
+18.8031 	EXP 	Device response: <KeyPress from None: t=18.60301954166789, value=space, duration=0.18423858333335374>
+19.1033 	EXP 	cue: autoDraw = True
+19.1201 	EXP 	fixation: autoDraw = False
+19.2034 	EXP 	cue: autoDraw = False
+19.3033 	INFO 	Keyboard events cleared
+19.3032 	EXP 	target: autoDraw = True
+19.6092 	DATA 	Keypress: space
+19.6196 	EXP 	Device response: <KeyPress from None: t=19.605921708331152, value=space, duration=None>
+19.6197 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+19.6367 	EXP 	fixation: autoDraw = False
+19.6367 	EXP 	leftbox: autoDraw = False
+19.6367 	EXP 	rightbox: autoDraw = False
+19.6367 	EXP 	cue: autoDraw = False
+19.6367 	EXP 	target: autoDraw = False
+19.6367 	EXP 	fixation: autoDraw = True
+19.6367 	EXP 	leftbox: autoDraw = True
+19.6367 	EXP 	rightbox: autoDraw = True
+19.7863 	EXP 	Device response: <KeyPress from None: t=19.605921708331152, value=space, duration=0.1643135833364795>
+20.1199 	EXP 	cue: autoDraw = True
+20.1366 	EXP 	fixation: autoDraw = False
+20.2202 	EXP 	cue: autoDraw = False
+20.5201 	INFO 	Keyboard events cleared
+20.5201 	EXP 	target: autoDraw = True
+20.8200 	EXP 	Device response: <KeyPress from None: t=20.81689754166655, value=space, duration=None>
+20.8200 	EXP 	New trial (rep=1, index=0): <Trial 16 (0 in rep 1) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 16, 'thisTrialN': 0, 'thisRepN': 1}>
+20.8216 	DATA 	Keypress: space
+20.8360 	EXP 	fixation: autoDraw = False
+20.8360 	EXP 	leftbox: autoDraw = False
+20.8360 	EXP 	rightbox: autoDraw = False
+20.8360 	EXP 	cue: autoDraw = False
+20.8360 	EXP 	target: autoDraw = False
+20.8360 	EXP 	fixation: autoDraw = True
+20.8360 	EXP 	leftbox: autoDraw = True
+20.8360 	EXP 	rightbox: autoDraw = True
+21.0029 	EXP 	Device response: <KeyPress from None: t=20.81689754166655, value=space, duration=0.17630954166452284>
+21.3199 	EXP 	cue: autoDraw = True
+21.3366 	EXP 	fixation: autoDraw = False
+21.4200 	EXP 	cue: autoDraw = False
+21.5200 	INFO 	Keyboard events cleared
+21.5200 	EXP 	target: autoDraw = True
+21.7912 	DATA 	Keypress: space
+21.8031 	EXP 	Device response: <KeyPress from None: t=21.787870791667956, value=space, duration=None>
+21.8032 	EXP 	New trial (rep=1, index=1): <Trial 17 (1 in rep 1) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 17, 'thisTrialN': 1, 'thisRepN': 1}>
+21.8201 	EXP 	fixation: autoDraw = False
+21.8201 	EXP 	leftbox: autoDraw = False
+21.8201 	EXP 	rightbox: autoDraw = False
+21.8201 	EXP 	cue: autoDraw = False
+21.8201 	EXP 	target: autoDraw = False
+21.8201 	EXP 	fixation: autoDraw = True
+21.8201 	EXP 	leftbox: autoDraw = True
+21.8201 	EXP 	rightbox: autoDraw = True
+21.9701 	EXP 	Device response: <KeyPress from None: t=21.787870791667956, value=space, duration=0.16830566666612867>
+22.3034 	EXP 	cue: autoDraw = True
+22.3196 	EXP 	fixation: autoDraw = False
+22.4035 	EXP 	cue: autoDraw = False
+22.7037 	INFO 	Keyboard events cleared
+22.7037 	EXP 	target: autoDraw = True
+22.9490 	DATA 	Keypress: space
+22.9538 	EXP 	Device response: <KeyPress from None: t=22.945851583332114, value=space, duration=None>
+22.9538 	EXP 	New trial (rep=1, index=2): <Trial 18 (2 in rep 1) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 18, 'thisTrialN': 2, 'thisRepN': 1}>
+22.9701 	EXP 	fixation: autoDraw = False
+22.9701 	EXP 	leftbox: autoDraw = False
+22.9701 	EXP 	rightbox: autoDraw = False
+22.9701 	EXP 	cue: autoDraw = False
+22.9701 	EXP 	target: autoDraw = False
+22.9701 	EXP 	fixation: autoDraw = True
+22.9701 	EXP 	leftbox: autoDraw = True
+22.9701 	EXP 	rightbox: autoDraw = True
+23.1195 	EXP 	Device response: <KeyPress from None: t=22.945851583332114, value=space, duration=0.16830991666574846>
+23.4533 	EXP 	cue: autoDraw = True
+23.4699 	EXP 	fixation: autoDraw = False
+23.5526 	EXP 	cue: autoDraw = False
+23.7532 	INFO 	Keyboard events cleared
+23.7531 	EXP 	target: autoDraw = True
+24.0433 	DATA 	Keypress: space
+24.0529 	EXP 	Device response: <KeyPress from None: t=24.040829041667166, value=space, duration=None>
+24.0529 	EXP 	New trial (rep=1, index=3): <Trial 19 (3 in rep 1) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 19, 'thisTrialN': 3, 'thisRepN': 1}>
+24.0701 	EXP 	fixation: autoDraw = False
+24.0701 	EXP 	leftbox: autoDraw = False
+24.0701 	EXP 	rightbox: autoDraw = False
+24.0701 	EXP 	cue: autoDraw = False
+24.0701 	EXP 	target: autoDraw = False
+24.0701 	EXP 	fixation: autoDraw = True
+24.0701 	EXP 	leftbox: autoDraw = True
+24.0701 	EXP 	rightbox: autoDraw = True
+24.2035 	EXP 	Device response: <KeyPress from None: t=24.040829041667166, value=space, duration=0.16031620833382476>
+24.5532 	EXP 	cue: autoDraw = True
+24.5701 	EXP 	fixation: autoDraw = False
+24.6531 	EXP 	cue: autoDraw = False
+24.8532 	INFO 	Keyboard events cleared
+24.8532 	EXP 	target: autoDraw = True
+25.4940 	DATA 	Keypress: space
+25.5030 	EXP 	Device response: <KeyPress from None: t=25.490787374998035, value=space, duration=None>
+25.5030 	EXP 	New trial (rep=1, index=4): <Trial 20 (4 in rep 1) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 20, 'thisTrialN': 4, 'thisRepN': 1}>
+25.5201 	EXP 	fixation: autoDraw = False
+25.5201 	EXP 	leftbox: autoDraw = False
+25.5201 	EXP 	rightbox: autoDraw = False
+25.5201 	EXP 	cue: autoDraw = False
+25.5201 	EXP 	target: autoDraw = False
+25.5201 	EXP 	fixation: autoDraw = True
+25.5201 	EXP 	leftbox: autoDraw = True
+25.5201 	EXP 	rightbox: autoDraw = True
+25.6534 	EXP 	Device response: <KeyPress from None: t=25.490787374998035, value=space, duration=0.15631412500079023>
+26.0032 	EXP 	cue: autoDraw = True
+26.0199 	EXP 	fixation: autoDraw = False
+26.1029 	EXP 	cue: autoDraw = False
+26.2033 	INFO 	Keyboard events cleared
+26.2032 	EXP 	target: autoDraw = True
+26.7440 	DATA 	Keypress: space
+26.7531 	EXP 	Device response: <KeyPress from None: t=26.740769083331543, value=space, duration=None>
+26.7531 	EXP 	New trial (rep=1, index=5): <Trial 21 (5 in rep 1) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 21, 'thisTrialN': 5, 'thisRepN': 1}>
+26.7700 	EXP 	fixation: autoDraw = False
+26.7700 	EXP 	leftbox: autoDraw = False
+26.7700 	EXP 	rightbox: autoDraw = False
+26.7700 	EXP 	cue: autoDraw = False
+26.7700 	EXP 	target: autoDraw = False
+26.7700 	EXP 	fixation: autoDraw = True
+26.7700 	EXP 	leftbox: autoDraw = True
+26.7700 	EXP 	rightbox: autoDraw = True
+26.9029 	EXP 	Device response: <KeyPress from None: t=26.740769083331543, value=space, duration=0.15629320833613747>
+27.2532 	EXP 	cue: autoDraw = True
+27.2703 	EXP 	fixation: autoDraw = False
+27.3533 	EXP 	cue: autoDraw = False
+27.6532 	INFO 	Keyboard events cleared
+27.6532 	EXP 	target: autoDraw = True
+28.0697 	EXP 	Device response: <KeyPress from None: t=28.06574170833119, value=space, duration=None>
+28.0697 	EXP 	New trial (rep=1, index=6): <Trial 22 (6 in rep 1) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 22, 'thisTrialN': 6, 'thisRepN': 1}>
+28.0710 	DATA 	Keypress: space
+28.0859 	EXP 	fixation: autoDraw = False
+28.0859 	EXP 	leftbox: autoDraw = False
+28.0859 	EXP 	rightbox: autoDraw = False
+28.0859 	EXP 	cue: autoDraw = False
+28.0859 	EXP 	target: autoDraw = False
+28.0859 	EXP 	fixation: autoDraw = True
+28.0859 	EXP 	leftbox: autoDraw = True
+28.0859 	EXP 	rightbox: autoDraw = True
+28.2196 	EXP 	Device response: <KeyPress from None: t=28.06574170833119, value=space, duration=0.15270825000334298>
+28.5700 	EXP 	cue: autoDraw = True
+28.5864 	EXP 	fixation: autoDraw = False
+28.6699 	EXP 	cue: autoDraw = False
+28.7692 	INFO 	Keyboard events cleared
+28.7692 	EXP 	target: autoDraw = True
+29.0289 	DATA 	Keypress: space
+29.0366 	EXP 	Device response: <KeyPress from None: t=29.025683500000014, value=space, duration=None>
+29.0367 	EXP 	New trial (rep=1, index=7): <Trial 23 (7 in rep 1) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 23, 'thisTrialN': 7, 'thisRepN': 1}>
+29.0535 	EXP 	fixation: autoDraw = False
+29.0535 	EXP 	leftbox: autoDraw = False
+29.0535 	EXP 	rightbox: autoDraw = False
+29.0535 	EXP 	cue: autoDraw = False
+29.0535 	EXP 	target: autoDraw = False
+29.0535 	EXP 	fixation: autoDraw = True
+29.0535 	EXP 	leftbox: autoDraw = True
+29.0535 	EXP 	rightbox: autoDraw = True
+29.2031 	EXP 	Device response: <KeyPress from None: t=29.025683500000014, value=space, duration=0.17635108333342941>
+29.5367 	EXP 	cue: autoDraw = True
+29.5533 	EXP 	fixation: autoDraw = False
+29.6367 	EXP 	cue: autoDraw = False
+30.0360 	INFO 	Keyboard events cleared
+30.0360 	EXP 	target: autoDraw = True
+30.5527 	EXP 	Device response: <KeyPress from None: t=30.551679916665307, value=space, duration=None>
+30.5528 	EXP 	New trial (rep=1, index=8): <Trial 24 (8 in rep 1) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 24, 'thisTrialN': 8, 'thisRepN': 1}>
+30.5552 	DATA 	Keypress: space
+30.5693 	EXP 	fixation: autoDraw = False
+30.5693 	EXP 	leftbox: autoDraw = False
+30.5693 	EXP 	rightbox: autoDraw = False
+30.5693 	EXP 	cue: autoDraw = False
+30.5693 	EXP 	target: autoDraw = False
+30.5693 	EXP 	fixation: autoDraw = True
+30.5693 	EXP 	leftbox: autoDraw = True
+30.5693 	EXP 	rightbox: autoDraw = True
+30.7194 	EXP 	Device response: <KeyPress from None: t=30.551679916665307, value=space, duration=0.1563116249999439>
+31.0532 	EXP 	cue: autoDraw = True
+31.0702 	EXP 	fixation: autoDraw = False
+31.1533 	EXP 	cue: autoDraw = False
+31.4526 	INFO 	Keyboard events cleared
+31.4526 	EXP 	target: autoDraw = True
+31.7410 	DATA 	Keypress: space
+31.7527 	EXP 	Device response: <KeyPress from None: t=31.737654458331235, value=space, duration=None>
+31.7528 	EXP 	New trial (rep=1, index=9): <Trial 25 (9 in rep 1) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 25, 'thisTrialN': 9, 'thisRepN': 1}>
+31.7701 	EXP 	fixation: autoDraw = False
+31.7701 	EXP 	leftbox: autoDraw = False
+31.7701 	EXP 	rightbox: autoDraw = False
+31.7701 	EXP 	cue: autoDraw = False
+31.7701 	EXP 	target: autoDraw = False
+31.7701 	EXP 	fixation: autoDraw = True
+31.7701 	EXP 	leftbox: autoDraw = True
+31.7701 	EXP 	rightbox: autoDraw = True
+31.9034 	EXP 	Device response: <KeyPress from None: t=31.737654458331235, value=space, duration=0.16431575000024168>
+32.2535 	EXP 	cue: autoDraw = True
+32.2699 	EXP 	fixation: autoDraw = False
+32.3532 	EXP 	cue: autoDraw = False
+32.6527 	INFO 	Keyboard events cleared
+32.6527 	EXP 	target: autoDraw = True
+32.9079 	DATA 	Keypress: space
+32.9198 	EXP 	Device response: <KeyPress from None: t=32.904627291667566, value=space, duration=None>
+32.9198 	EXP 	New trial (rep=1, index=10): <Trial 26 (10 in rep 1) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 26, 'thisTrialN': 10, 'thisRepN': 1}>
+32.9362 	EXP 	fixation: autoDraw = False
+32.9362 	EXP 	leftbox: autoDraw = False
+32.9362 	EXP 	rightbox: autoDraw = False
+32.9362 	EXP 	cue: autoDraw = False
+32.9362 	EXP 	target: autoDraw = False
+32.9362 	EXP 	fixation: autoDraw = True
+32.9362 	EXP 	leftbox: autoDraw = True
+32.9362 	EXP 	rightbox: autoDraw = True
+33.0867 	EXP 	Device response: <KeyPress from None: t=32.904627291667566, value=space, duration=0.16830916666367557>
+33.4200 	EXP 	cue: autoDraw = True
+33.4366 	EXP 	fixation: autoDraw = False
+33.5199 	EXP 	cue: autoDraw = False
+33.6200 	INFO 	Keyboard events cleared
+33.6199 	EXP 	target: autoDraw = True
+34.0369 	EXP 	Device response: <KeyPress from None: t=34.03561229166735, value=space, duration=None>
+34.0369 	EXP 	New trial (rep=1, index=11): <Trial 27 (11 in rep 1) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 27, 'thisTrialN': 11, 'thisRepN': 1}>
+34.0390 	DATA 	Keypress: space
+34.0526 	EXP 	fixation: autoDraw = False
+34.0526 	EXP 	leftbox: autoDraw = False
+34.0526 	EXP 	rightbox: autoDraw = False
+34.0526 	EXP 	cue: autoDraw = False
+34.0526 	EXP 	target: autoDraw = False
+34.0526 	EXP 	fixation: autoDraw = True
+34.0526 	EXP 	leftbox: autoDraw = True
+34.0526 	EXP 	rightbox: autoDraw = True
+34.2362 	EXP 	Device response: <KeyPress from None: t=34.03561229166735, value=space, duration=0.19629816666565603>
+34.5526 	EXP 	fixation: autoDraw = False
+34.5526 	EXP 	cue: autoDraw = True
+34.6535 	EXP 	cue: autoDraw = False
+34.8366 	INFO 	Keyboard events cleared
+34.8365 	EXP 	target: autoDraw = True
+35.2997 	DATA 	Keypress: space
+35.3045 	EXP 	Device response: <KeyPress from None: t=35.29652304166666, value=space, duration=None>
+35.3046 	EXP 	New trial (rep=1, index=12): <Trial 28 (12 in rep 1) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 28, 'thisTrialN': 12, 'thisRepN': 1}>
+35.3194 	EXP 	fixation: autoDraw = False
+35.3194 	EXP 	leftbox: autoDraw = False
+35.3194 	EXP 	rightbox: autoDraw = False
+35.3194 	EXP 	cue: autoDraw = False
+35.3194 	EXP 	target: autoDraw = False
+35.3194 	EXP 	fixation: autoDraw = True
+35.3194 	EXP 	leftbox: autoDraw = True
+35.3194 	EXP 	rightbox: autoDraw = True
+35.4869 	EXP 	Device response: <KeyPress from None: t=35.29652304166666, value=space, duration=0.17636520833184477>
+35.8200 	EXP 	fixation: autoDraw = False
+35.8200 	EXP 	cue: autoDraw = True
+35.9201 	EXP 	cue: autoDraw = False
+36.3197 	INFO 	Keyboard events cleared
+36.3197 	EXP 	target: autoDraw = True
+36.7701 	EXP 	Device response: <KeyPress from None: t=36.76554962500086, value=space, duration=None>
+36.7701 	EXP 	New trial (rep=1, index=13): <Trial 29 (13 in rep 1) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 29, 'thisTrialN': 13, 'thisRepN': 1}>
+36.7706 	DATA 	Keypress: space
+36.7860 	EXP 	fixation: autoDraw = False
+36.7860 	EXP 	leftbox: autoDraw = False
+36.7860 	EXP 	rightbox: autoDraw = False
+36.7860 	EXP 	cue: autoDraw = False
+36.7860 	EXP 	target: autoDraw = False
+36.7860 	EXP 	fixation: autoDraw = True
+36.7860 	EXP 	leftbox: autoDraw = True
+36.7860 	EXP 	rightbox: autoDraw = True
+36.9203 	EXP 	Device response: <KeyPress from None: t=36.76554962500086, value=space, duration=0.14126808333094232>
+37.2700 	EXP 	cue: autoDraw = True
+37.2868 	EXP 	fixation: autoDraw = False
+37.3699 	EXP 	cue: autoDraw = False
+37.5700 	INFO 	Keyboard events cleared
+37.5699 	EXP 	target: autoDraw = True
+37.8629 	DATA 	Keypress: space
+37.8699 	EXP 	Device response: <KeyPress from None: t=37.85951062499953, value=space, duration=None>
+37.8700 	EXP 	New trial (rep=1, index=14): <Trial 30 (14 in rep 1) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 30, 'thisTrialN': 14, 'thisRepN': 1}>
+37.8866 	EXP 	fixation: autoDraw = False
+37.8866 	EXP 	leftbox: autoDraw = False
+37.8866 	EXP 	rightbox: autoDraw = False
+37.8866 	EXP 	cue: autoDraw = False
+37.8866 	EXP 	target: autoDraw = False
+37.8866 	EXP 	fixation: autoDraw = True
+37.8866 	EXP 	leftbox: autoDraw = True
+37.8866 	EXP 	rightbox: autoDraw = True
+38.0201 	EXP 	Device response: <KeyPress from None: t=37.85951062499953, value=space, duration=0.156284874999983>
+38.3702 	EXP 	cue: autoDraw = True
+38.3866 	EXP 	fixation: autoDraw = False
+38.4701 	EXP 	cue: autoDraw = False
+38.8700 	INFO 	Keyboard events cleared
+38.8699 	EXP 	target: autoDraw = True
+39.2866 	EXP 	Device response: <KeyPress from None: t=39.283480583333585, value=space, duration=None>
+39.2867 	EXP 	New trial (rep=1, index=15): <Trial 31 (15 in rep 1) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 31, 'thisTrialN': 15, 'thisRepN': 1}>
+39.2882 	DATA 	Keypress: space
+39.3026 	EXP 	fixation: autoDraw = False
+39.3026 	EXP 	leftbox: autoDraw = False
+39.3026 	EXP 	rightbox: autoDraw = False
+39.3026 	EXP 	cue: autoDraw = False
+39.3026 	EXP 	target: autoDraw = False
+39.3026 	EXP 	fixation: autoDraw = True
+39.3026 	EXP 	leftbox: autoDraw = True
+39.3026 	EXP 	rightbox: autoDraw = True
+39.4528 	EXP 	Device response: <KeyPress from None: t=39.283480583333585, value=space, duration=0.16431849999935366>
+39.7861 	EXP 	cue: autoDraw = True
+39.8033 	EXP 	fixation: autoDraw = False
+39.8861 	EXP 	cue: autoDraw = False
+40.2865 	INFO 	Keyboard events cleared
+40.2864 	EXP 	target: autoDraw = True
+40.5437 	DATA 	Keypress: space
+40.5529 	EXP 	Device response: <KeyPress from None: t=40.54046541666685, value=space, duration=None>
+40.5530 	EXP 	New trial (rep=2, index=0): <Trial 32 (0 in rep 2) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 32, 'thisTrialN': 0, 'thisRepN': 2}>
+40.5698 	EXP 	fixation: autoDraw = False
+40.5698 	EXP 	leftbox: autoDraw = False
+40.5698 	EXP 	rightbox: autoDraw = False
+40.5698 	EXP 	cue: autoDraw = False
+40.5698 	EXP 	target: autoDraw = False
+40.5698 	EXP 	fixation: autoDraw = True
+40.5698 	EXP 	leftbox: autoDraw = True
+40.5698 	EXP 	rightbox: autoDraw = True
+40.7193 	EXP 	Device response: <KeyPress from None: t=40.54046541666685, value=space, duration=0.17302883333104546>
+41.0533 	EXP 	cue: autoDraw = True
+41.0702 	EXP 	fixation: autoDraw = False
+41.1532 	EXP 	cue: autoDraw = False
+41.3533 	INFO 	Keyboard events cleared
+41.3532 	EXP 	target: autoDraw = True
+41.6326 	DATA 	Keypress: space
+41.6375 	EXP 	Device response: <KeyPress from None: t=41.62940462500046, value=space, duration=None>
+41.6376 	EXP 	New trial (rep=2, index=1): <Trial 33 (1 in rep 2) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 33, 'thisTrialN': 1, 'thisRepN': 2}>
+41.6526 	EXP 	fixation: autoDraw = False
+41.6526 	EXP 	leftbox: autoDraw = False
+41.6526 	EXP 	rightbox: autoDraw = False
+41.6526 	EXP 	cue: autoDraw = False
+41.6526 	EXP 	target: autoDraw = False
+41.6526 	EXP 	fixation: autoDraw = True
+41.6526 	EXP 	leftbox: autoDraw = True
+41.6526 	EXP 	rightbox: autoDraw = True
+41.7869 	EXP 	Device response: <KeyPress from None: t=41.62940462500046, value=space, duration=0.1483392083318904>
+42.1532 	EXP 	fixation: autoDraw = False
+42.1532 	EXP 	cue: autoDraw = True
+42.2534 	EXP 	cue: autoDraw = False
+42.4367 	INFO 	Keyboard events cleared
+42.4366 	EXP 	target: autoDraw = True
+42.5927 	DATA 	Keypress: space
+42.6030 	EXP 	Device response: <KeyPress from None: t=42.58941791666439, value=space, duration=None>
+42.6030 	EXP 	New trial (rep=2, index=2): <Trial 34 (2 in rep 2) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 34, 'thisTrialN': 2, 'thisRepN': 2}>
+42.6193 	EXP 	fixation: autoDraw = False
+42.6193 	EXP 	leftbox: autoDraw = False
+42.6193 	EXP 	rightbox: autoDraw = False
+42.6193 	EXP 	cue: autoDraw = False
+42.6193 	EXP 	target: autoDraw = False
+42.6193 	EXP 	fixation: autoDraw = True
+42.6193 	EXP 	leftbox: autoDraw = True
+42.6193 	EXP 	rightbox: autoDraw = True
+42.8026 	EXP 	Device response: <KeyPress from None: t=42.58941791666439, value=space, duration=0.20829887500076438>
+43.1031 	EXP 	cue: autoDraw = True
+43.1192 	EXP 	fixation: autoDraw = False
+43.2032 	EXP 	cue: autoDraw = False
+43.3032 	INFO 	Keyboard events cleared
+43.3031 	EXP 	target: autoDraw = True
+43.7034 	EXP 	Device response: <KeyPress from None: t=43.69959616666529, value=space, duration=None>
+43.7034 	EXP 	New trial (rep=2, index=3): <Trial 35 (3 in rep 2) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 35, 'thisTrialN': 3, 'thisRepN': 2}>
+43.7047 	DATA 	Keypress: space
+43.7193 	EXP 	fixation: autoDraw = False
+43.7193 	EXP 	leftbox: autoDraw = False
+43.7193 	EXP 	rightbox: autoDraw = False
+43.7193 	EXP 	cue: autoDraw = False
+43.7193 	EXP 	target: autoDraw = False
+43.7193 	EXP 	fixation: autoDraw = True
+43.7193 	EXP 	leftbox: autoDraw = True
+43.7193 	EXP 	rightbox: autoDraw = True
+43.8860 	EXP 	Device response: <KeyPress from None: t=43.69959616666529, value=space, duration=0.17609679166707792>
+44.2032 	EXP 	cue: autoDraw = True
+44.2200 	EXP 	fixation: autoDraw = False
+44.3031 	EXP 	cue: autoDraw = False
+44.7031 	INFO 	Keyboard events cleared
+44.7030 	EXP 	target: autoDraw = True
+44.9796 	DATA 	Keypress: space
+44.9864 	EXP 	Device response: <KeyPress from None: t=44.97636558333397, value=space, duration=None>
+44.9865 	EXP 	New trial (rep=2, index=4): <Trial 36 (4 in rep 2) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 36, 'thisTrialN': 4, 'thisRepN': 2}>
+45.0033 	EXP 	fixation: autoDraw = False
+45.0033 	EXP 	leftbox: autoDraw = False
+45.0033 	EXP 	rightbox: autoDraw = False
+45.0033 	EXP 	cue: autoDraw = False
+45.0033 	EXP 	target: autoDraw = False
+45.0033 	EXP 	fixation: autoDraw = True
+45.0033 	EXP 	leftbox: autoDraw = True
+45.0033 	EXP 	rightbox: autoDraw = True
+45.1367 	EXP 	Device response: <KeyPress from None: t=44.97636558333397, value=space, duration=0.1523057083322783>
+45.4869 	EXP 	cue: autoDraw = True
+45.5032 	EXP 	fixation: autoDraw = False
+45.5859 	EXP 	cue: autoDraw = False
+45.8996 	DATA 	Keypress: space
+45.9044 	EXP 	Device response: <KeyPress from None: t=45.89633545833203, value=space, duration=None>
+45.9867 	INFO 	Keyboard events cleared
+45.9867 	EXP 	target: autoDraw = True
+46.0699 	EXP 	Device response: <KeyPress from None: t=45.89633545833203, value=space, duration=0.1683128750009928>
+47.3276 	DATA 	Keypress: space
+47.3363 	EXP 	Device response: <KeyPress from None: t=47.32431179166451, value=space, duration=None>
+47.3364 	EXP 	New trial (rep=2, index=5): <Trial 37 (5 in rep 2) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 37, 'thisTrialN': 5, 'thisRepN': 2}>
+47.3532 	EXP 	fixation: autoDraw = False
+47.3532 	EXP 	leftbox: autoDraw = False
+47.3532 	EXP 	rightbox: autoDraw = False
+47.3532 	EXP 	cue: autoDraw = False
+47.3532 	EXP 	target: autoDraw = False
+47.3532 	EXP 	fixation: autoDraw = True
+47.3532 	EXP 	leftbox: autoDraw = True
+47.3532 	EXP 	rightbox: autoDraw = True
+47.5027 	EXP 	Device response: <KeyPress from None: t=47.32431179166451, value=space, duration=0.16856787500000792>
+47.8365 	EXP 	cue: autoDraw = True
+47.8534 	EXP 	fixation: autoDraw = False
+47.9364 	EXP 	cue: autoDraw = False
+48.0365 	INFO 	Keyboard events cleared
+48.0365 	EXP 	target: autoDraw = True
+48.4026 	EXP 	Device response: <KeyPress from None: t=48.40227949999826, value=space, duration=None>
+48.4027 	EXP 	New trial (rep=2, index=6): <Trial 38 (6 in rep 2) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 38, 'thisTrialN': 6, 'thisRepN': 2}>
+48.4050 	DATA 	Keypress: space
+48.4192 	EXP 	fixation: autoDraw = False
+48.4192 	EXP 	leftbox: autoDraw = False
+48.4192 	EXP 	rightbox: autoDraw = False
+48.4192 	EXP 	cue: autoDraw = False
+48.4192 	EXP 	target: autoDraw = False
+48.4192 	EXP 	fixation: autoDraw = True
+48.4192 	EXP 	leftbox: autoDraw = True
+48.4192 	EXP 	rightbox: autoDraw = True
+48.5859 	EXP 	Device response: <KeyPress from None: t=48.40227949999826, value=space, duration=0.16829129166944767>
+48.9026 	EXP 	cue: autoDraw = True
+48.9191 	EXP 	fixation: autoDraw = False
+49.0031 	EXP 	cue: autoDraw = False
+49.3034 	INFO 	Keyboard events cleared
+49.3033 	EXP 	target: autoDraw = True
+49.7865 	EXP 	Device response: <KeyPress from None: t=49.78628845833373, value=space, duration=None>
+49.7866 	EXP 	New trial (rep=2, index=7): <Trial 39 (7 in rep 2) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 39, 'thisTrialN': 7, 'thisRepN': 2}>
+49.7894 	DATA 	Keypress: space
+49.8025 	EXP 	fixation: autoDraw = False
+49.8025 	EXP 	leftbox: autoDraw = False
+49.8025 	EXP 	rightbox: autoDraw = False
+49.8025 	EXP 	cue: autoDraw = False
+49.8025 	EXP 	target: autoDraw = False
+49.8025 	EXP 	fixation: autoDraw = True
+49.8025 	EXP 	leftbox: autoDraw = True
+49.8025 	EXP 	rightbox: autoDraw = True
+49.9365 	EXP 	Device response: <KeyPress from None: t=49.78628845833373, value=space, duration=0.14823483333384502>
+50.2866 	EXP 	cue: autoDraw = True
+50.3032 	EXP 	fixation: autoDraw = False
+50.3867 	EXP 	cue: autoDraw = False
+50.7868 	INFO 	Keyboard events cleared
+50.7868 	EXP 	target: autoDraw = True
+51.0994 	DATA 	Keypress: space
+51.1042 	EXP 	Device response: <KeyPress from None: t=51.096214041666826, value=space, duration=None>
+51.1043 	EXP 	New trial (rep=2, index=8): <Trial 40 (8 in rep 2) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 40, 'thisTrialN': 8, 'thisRepN': 2}>
+51.1199 	EXP 	fixation: autoDraw = False
+51.1199 	EXP 	leftbox: autoDraw = False
+51.1199 	EXP 	rightbox: autoDraw = False
+51.1199 	EXP 	cue: autoDraw = False
+51.1199 	EXP 	target: autoDraw = False
+51.1199 	EXP 	fixation: autoDraw = True
+51.1199 	EXP 	leftbox: autoDraw = True
+51.1199 	EXP 	rightbox: autoDraw = True
+51.2862 	EXP 	Device response: <KeyPress from None: t=51.096214041666826, value=space, duration=0.18031091666489374>
+51.6198 	EXP 	fixation: autoDraw = False
+51.6198 	EXP 	cue: autoDraw = True
+51.7197 	EXP 	cue: autoDraw = False
+51.8197 	INFO 	Keyboard events cleared
+51.8196 	EXP 	target: autoDraw = True
+52.4775 	DATA 	Keypress: space
+52.4860 	EXP 	Device response: <KeyPress from None: t=52.47419916666695, value=space, duration=None>
+52.4861 	EXP 	New trial (rep=2, index=9): <Trial 41 (9 in rep 2) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 41, 'thisTrialN': 9, 'thisRepN': 2}>
+52.5024 	EXP 	fixation: autoDraw = False
+52.5024 	EXP 	leftbox: autoDraw = False
+52.5024 	EXP 	rightbox: autoDraw = False
+52.5024 	EXP 	cue: autoDraw = False
+52.5024 	EXP 	target: autoDraw = False
+52.5024 	EXP 	fixation: autoDraw = True
+52.5024 	EXP 	leftbox: autoDraw = True
+52.5024 	EXP 	rightbox: autoDraw = True
+52.6359 	EXP 	Device response: <KeyPress from None: t=52.47419916666695, value=space, duration=0.15228949999800534>
+52.9866 	EXP 	cue: autoDraw = True
+53.0032 	EXP 	fixation: autoDraw = False
+53.0864 	EXP 	cue: autoDraw = False
+53.2864 	INFO 	Keyboard events cleared
+53.2864 	EXP 	target: autoDraw = True
+53.6475 	DATA 	Keypress: space
+53.6528 	EXP 	Device response: <KeyPress from None: t=53.644172166666976, value=space, duration=None>
+53.6529 	EXP 	New trial (rep=2, index=10): <Trial 42 (10 in rep 2) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 42, 'thisTrialN': 10, 'thisRepN': 2}>
+53.6702 	EXP 	fixation: autoDraw = False
+53.6702 	EXP 	leftbox: autoDraw = False
+53.6702 	EXP 	rightbox: autoDraw = False
+53.6702 	EXP 	cue: autoDraw = False
+53.6702 	EXP 	target: autoDraw = False
+53.6702 	EXP 	fixation: autoDraw = True
+53.6702 	EXP 	leftbox: autoDraw = True
+53.6702 	EXP 	rightbox: autoDraw = True
+53.8199 	EXP 	Device response: <KeyPress from None: t=53.644172166666976, value=space, duration=0.17228333333332557>
+54.1531 	EXP 	cue: autoDraw = True
+54.1699 	EXP 	fixation: autoDraw = False
+54.2534 	EXP 	cue: autoDraw = False
+54.3527 	INFO 	Keyboard events cleared
+54.3526 	EXP 	target: autoDraw = True
+54.6034 	EXP 	Device response: <KeyPress from None: t=54.59914516666686, value=space, duration=None>
+54.6034 	EXP 	New trial (rep=2, index=11): <Trial 43 (11 in rep 2) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 43, 'thisTrialN': 11, 'thisRepN': 2}>
+54.6038 	DATA 	Keypress: space
+54.6193 	EXP 	fixation: autoDraw = False
+54.6193 	EXP 	leftbox: autoDraw = False
+54.6193 	EXP 	rightbox: autoDraw = False
+54.6193 	EXP 	cue: autoDraw = False
+54.6193 	EXP 	target: autoDraw = False
+54.6193 	EXP 	fixation: autoDraw = True
+54.6193 	EXP 	leftbox: autoDraw = True
+54.6193 	EXP 	rightbox: autoDraw = True
+54.7700 	EXP 	Device response: <KeyPress from None: t=54.59914516666686, value=space, duration=0.16029383333443548>
+55.1030 	EXP 	cue: autoDraw = True
+55.1197 	EXP 	fixation: autoDraw = False
+55.2029 	EXP 	cue: autoDraw = False
+55.4032 	INFO 	Keyboard events cleared
+55.4032 	EXP 	target: autoDraw = True
+55.7444 	DATA 	Keypress: space
+55.7530 	EXP 	Device response: <KeyPress from None: t=55.741121750001184, value=space, duration=None>
+55.7530 	EXP 	New trial (rep=2, index=12): <Trial 44 (12 in rep 2) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 44, 'thisTrialN': 12, 'thisRepN': 2}>
+55.7697 	EXP 	fixation: autoDraw = False
+55.7697 	EXP 	leftbox: autoDraw = False
+55.7697 	EXP 	rightbox: autoDraw = False
+55.7697 	EXP 	cue: autoDraw = False
+55.7697 	EXP 	target: autoDraw = False
+55.7697 	EXP 	fixation: autoDraw = True
+55.7697 	EXP 	leftbox: autoDraw = True
+55.7697 	EXP 	rightbox: autoDraw = True
+55.9027 	EXP 	Device response: <KeyPress from None: t=55.741121750001184, value=space, duration=0.15679733333308832>
+56.2531 	EXP 	cue: autoDraw = True
+56.2698 	EXP 	fixation: autoDraw = False
+56.3531 	EXP 	cue: autoDraw = False
+56.6524 	INFO 	Keyboard events cleared
+56.6523 	EXP 	target: autoDraw = True
+57.0393 	DATA 	Keypress: space
+57.0530 	EXP 	Device response: <KeyPress from None: t=57.037097791664564, value=space, duration=None>
+57.0530 	EXP 	New trial (rep=2, index=13): <Trial 45 (13 in rep 2) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 45, 'thisTrialN': 13, 'thisRepN': 2}>
+57.0700 	EXP 	fixation: autoDraw = False
+57.0700 	EXP 	leftbox: autoDraw = False
+57.0700 	EXP 	rightbox: autoDraw = False
+57.0700 	EXP 	cue: autoDraw = False
+57.0700 	EXP 	target: autoDraw = False
+57.0700 	EXP 	fixation: autoDraw = True
+57.0700 	EXP 	leftbox: autoDraw = True
+57.0700 	EXP 	rightbox: autoDraw = True
+57.2034 	EXP 	Device response: <KeyPress from None: t=57.037097791664564, value=space, duration=0.15230270833490067>
+57.5532 	EXP 	cue: autoDraw = True
+57.5692 	EXP 	fixation: autoDraw = False
+57.6525 	EXP 	cue: autoDraw = False
+57.9123 	DATA 	Keypress: space
+57.9194 	EXP 	Device response: <KeyPress from None: t=57.90907208333374, value=space, duration=None>
+57.9532 	INFO 	Keyboard events cleared
+57.9531 	EXP 	target: autoDraw = True
+58.1033 	EXP 	Device response: <KeyPress from None: t=57.90907208333374, value=space, duration=0.19238387500081444>
+58.7020 	EXP 	Device response: <KeyPress from None: t=58.700049499999295, value=space, duration=None>
+58.7020 	EXP 	New trial (rep=2, index=14): <Trial 46 (14 in rep 2) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 46, 'thisTrialN': 14, 'thisRepN': 2}>
+58.7044 	DATA 	Keypress: space
+58.7185 	EXP 	fixation: autoDraw = False
+58.7185 	EXP 	leftbox: autoDraw = False
+58.7185 	EXP 	rightbox: autoDraw = False
+58.7185 	EXP 	cue: autoDraw = False
+58.7185 	EXP 	target: autoDraw = False
+58.7185 	EXP 	fixation: autoDraw = True
+58.7185 	EXP 	leftbox: autoDraw = True
+58.7185 	EXP 	rightbox: autoDraw = True
+58.8535 	EXP 	Device response: <KeyPress from None: t=58.700049499999295, value=space, duration=0.1523055416655552>
+59.2031 	EXP 	cue: autoDraw = True
+59.2200 	EXP 	fixation: autoDraw = False
+59.3017 	EXP 	cue: autoDraw = False
+59.6029 	INFO 	Keyboard events cleared
+59.6029 	EXP 	target: autoDraw = True
+59.8756 	DATA 	Keypress: space
+59.8860 	EXP 	Device response: <KeyPress from None: t=59.87238566666565, value=space, duration=None>
+59.8861 	EXP 	New trial (rep=2, index=15): <Trial 47 (15 in rep 2) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 47, 'thisTrialN': 15, 'thisRepN': 2}>
+59.9031 	EXP 	fixation: autoDraw = False
+59.9031 	EXP 	leftbox: autoDraw = False
+59.9031 	EXP 	rightbox: autoDraw = False
+59.9031 	EXP 	cue: autoDraw = False
+59.9031 	EXP 	target: autoDraw = False
+59.9031 	EXP 	fixation: autoDraw = True
+59.9031 	EXP 	leftbox: autoDraw = True
+59.9031 	EXP 	rightbox: autoDraw = True
+60.0524 	EXP 	Device response: <KeyPress from None: t=59.87238566666565, value=space, duration=0.17195029166759923>
+60.3864 	EXP 	cue: autoDraw = True
+60.4029 	EXP 	fixation: autoDraw = False
+60.4863 	EXP 	cue: autoDraw = False
+60.8864 	INFO 	Keyboard events cleared
+60.8864 	EXP 	target: autoDraw = True
+61.1960 	DATA 	Keypress: space
+61.2029 	EXP 	Device response: <KeyPress from None: t=61.19282420833406, value=space, duration=None>
+61.2029 	EXP 	New trial (rep=3, index=0): <Trial 48 (0 in rep 3) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 48, 'thisTrialN': 0, 'thisRepN': 3}>
+61.2199 	EXP 	fixation: autoDraw = False
+61.2199 	EXP 	leftbox: autoDraw = False
+61.2199 	EXP 	rightbox: autoDraw = False
+61.2199 	EXP 	cue: autoDraw = False
+61.2199 	EXP 	target: autoDraw = False
+61.2199 	EXP 	fixation: autoDraw = True
+61.2199 	EXP 	leftbox: autoDraw = True
+61.2199 	EXP 	rightbox: autoDraw = True
+61.3692 	EXP 	Device response: <KeyPress from None: t=61.19282420833406, value=space, duration=0.1635122916668479>
+61.7030 	EXP 	cue: autoDraw = True
+61.7198 	EXP 	fixation: autoDraw = False
+61.8032 	EXP 	cue: autoDraw = False
+62.1033 	INFO 	Keyboard events cleared
+62.1033 	EXP 	target: autoDraw = True
+62.3982 	DATA 	Keypress: space
+62.4028 	EXP 	Device response: <KeyPress from None: t=62.394961958332715, value=space, duration=None>
+62.4028 	EXP 	New trial (rep=3, index=1): <Trial 49 (1 in rep 3) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 49, 'thisTrialN': 1, 'thisRepN': 3}>
+62.4197 	EXP 	fixation: autoDraw = False
+62.4197 	EXP 	leftbox: autoDraw = False
+62.4197 	EXP 	rightbox: autoDraw = False
+62.4197 	EXP 	cue: autoDraw = False
+62.4197 	EXP 	target: autoDraw = False
+62.4197 	EXP 	fixation: autoDraw = True
+62.4197 	EXP 	leftbox: autoDraw = True
+62.4197 	EXP 	rightbox: autoDraw = True
+62.5865 	EXP 	Device response: <KeyPress from None: t=62.394961958332715, value=space, duration=0.18431933333340567>
+62.9025 	EXP 	cue: autoDraw = True
+62.9197 	EXP 	fixation: autoDraw = False
+63.0033 	EXP 	cue: autoDraw = False
+63.1031 	INFO 	Keyboard events cleared
+63.1030 	EXP 	target: autoDraw = True
+63.3743 	DATA 	Keypress: space
+63.3859 	EXP 	Device response: <KeyPress from None: t=63.370927916665096, value=space, duration=None>
+63.3859 	EXP 	New trial (rep=3, index=2): <Trial 50 (2 in rep 3) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 50, 'thisTrialN': 2, 'thisRepN': 3}>
+63.4033 	EXP 	fixation: autoDraw = False
+63.4033 	EXP 	leftbox: autoDraw = False
+63.4033 	EXP 	rightbox: autoDraw = False
+63.4033 	EXP 	cue: autoDraw = False
+63.4033 	EXP 	target: autoDraw = False
+63.4033 	EXP 	fixation: autoDraw = True
+63.4033 	EXP 	leftbox: autoDraw = True
+63.4033 	EXP 	rightbox: autoDraw = True
+63.5531 	EXP 	Device response: <KeyPress from None: t=63.370927916665096, value=space, duration=0.1803450833358511>
+63.8859 	EXP 	cue: autoDraw = True
+63.9032 	EXP 	fixation: autoDraw = False
+63.9864 	EXP 	cue: autoDraw = False
+64.1856 	INFO 	Keyboard events cleared
+64.1856 	EXP 	target: autoDraw = True
+64.5026 	EXP 	Device response: <KeyPress from None: t=64.49895037500028, value=space, duration=None>
+64.5026 	EXP 	New trial (rep=3, index=3): <Trial 51 (3 in rep 3) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 51, 'thisTrialN': 3, 'thisRepN': 3}>
+64.5034 	DATA 	Keypress: space
+64.5190 	EXP 	fixation: autoDraw = False
+64.5190 	EXP 	leftbox: autoDraw = False
+64.5190 	EXP 	rightbox: autoDraw = False
+64.5190 	EXP 	cue: autoDraw = False
+64.5190 	EXP 	target: autoDraw = False
+64.5190 	EXP 	fixation: autoDraw = True
+64.5190 	EXP 	leftbox: autoDraw = True
+64.5190 	EXP 	rightbox: autoDraw = True
+64.6862 	EXP 	Device response: <KeyPress from None: t=64.49895037500028, value=space, duration=0.17225954166497104>
+65.0032 	EXP 	cue: autoDraw = True
+65.0192 	EXP 	fixation: autoDraw = False
+65.1034 	EXP 	cue: autoDraw = False
+65.4031 	INFO 	Keyboard events cleared
+65.4031 	EXP 	target: autoDraw = True
+65.7532 	EXP 	Device response: <KeyPress from None: t=65.75300787499873, value=space, duration=None>
+65.7533 	EXP 	New trial (rep=3, index=4): <Trial 52 (4 in rep 3) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 52, 'thisTrialN': 4, 'thisRepN': 3}>
+65.7560 	DATA 	Keypress: space
+65.7691 	EXP 	fixation: autoDraw = False
+65.7691 	EXP 	leftbox: autoDraw = False
+65.7691 	EXP 	rightbox: autoDraw = False
+65.7691 	EXP 	cue: autoDraw = False
+65.7691 	EXP 	target: autoDraw = False
+65.7691 	EXP 	fixation: autoDraw = True
+65.7691 	EXP 	leftbox: autoDraw = True
+65.7691 	EXP 	rightbox: autoDraw = True
+65.9693 	EXP 	Device response: <KeyPress from None: t=65.75300787499873, value=space, duration=0.20017979166732403>
+66.2530 	EXP 	cue: autoDraw = True
+66.2698 	EXP 	fixation: autoDraw = False
+66.3530 	EXP 	cue: autoDraw = False
+66.7532 	INFO 	Keyboard events cleared
+66.7532 	EXP 	target: autoDraw = True
+67.1621 	DATA 	Keypress: space
+67.1693 	EXP 	Device response: <KeyPress from None: t=67.15886799999862, value=space, duration=None>
+67.1693 	EXP 	New trial (rep=3, index=5): <Trial 53 (5 in rep 3) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 53, 'thisTrialN': 5, 'thisRepN': 3}>
+67.1857 	EXP 	fixation: autoDraw = False
+67.1857 	EXP 	leftbox: autoDraw = False
+67.1857 	EXP 	rightbox: autoDraw = False
+67.1857 	EXP 	cue: autoDraw = False
+67.1857 	EXP 	target: autoDraw = False
+67.1857 	EXP 	fixation: autoDraw = True
+67.1857 	EXP 	leftbox: autoDraw = True
+67.1857 	EXP 	rightbox: autoDraw = True
+67.3197 	EXP 	Device response: <KeyPress from None: t=67.15886799999862, value=space, duration=0.1603273333348625>
+67.6696 	EXP 	cue: autoDraw = True
+67.6868 	EXP 	fixation: autoDraw = False
+67.7691 	EXP 	cue: autoDraw = False
+68.0692 	INFO 	Keyboard events cleared
+68.0691 	EXP 	target: autoDraw = True
+68.5431 	DATA 	Keypress: space
+68.5526 	EXP 	Device response: <KeyPress from None: t=68.53983045833229, value=space, duration=None>
+68.5526 	EXP 	New trial (rep=3, index=6): <Trial 54 (6 in rep 3) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 54, 'thisTrialN': 6, 'thisRepN': 3}>
+68.5691 	EXP 	fixation: autoDraw = False
+68.5691 	EXP 	leftbox: autoDraw = False
+68.5691 	EXP 	rightbox: autoDraw = False
+68.5691 	EXP 	cue: autoDraw = False
+68.5691 	EXP 	target: autoDraw = False
+68.5691 	EXP 	fixation: autoDraw = True
+68.5691 	EXP 	leftbox: autoDraw = True
+68.5691 	EXP 	rightbox: autoDraw = True
+69.0533 	EXP 	cue: autoDraw = True
+69.0697 	EXP 	fixation: autoDraw = False
+69.1531 	EXP 	cue: autoDraw = False
+69.3531 	INFO 	Keyboard events cleared
+69.3530 	EXP 	target: autoDraw = True
+70.6200 	EXP 	Device response: <KeyPress from None: t=68.53983045833229, value=space, duration=2.0723516666657815>
+70.8531 	EXP 	target: autoDraw = False
+71.0529 	EXP 	New trial (rep=3, index=7): <Trial 55 (7 in rep 3) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 55, 'thisTrialN': 7, 'thisRepN': 3}>
+71.0691 	EXP 	leftbox: autoDraw = False
+71.0691 	EXP 	rightbox: autoDraw = False
+71.0691 	EXP 	fixation: autoDraw = False
+71.0691 	EXP 	leftbox: autoDraw = False
+71.0691 	EXP 	rightbox: autoDraw = False
+71.0691 	EXP 	cue: autoDraw = False
+71.0691 	EXP 	target: autoDraw = False
+71.0691 	EXP 	fixation: autoDraw = True
+71.0691 	EXP 	leftbox: autoDraw = True
+71.0691 	EXP 	rightbox: autoDraw = True
+71.5528 	EXP 	cue: autoDraw = True
+71.5696 	EXP 	fixation: autoDraw = False
+71.6529 	EXP 	cue: autoDraw = False
+71.7529 	INFO 	Keyboard events cleared
+71.7529 	EXP 	target: autoDraw = True
+71.9198 	EXP 	Device response: <KeyPress from None: t=71.91875349999827, value=space, duration=None>
+71.9198 	EXP 	New trial (rep=3, index=8): <Trial 56 (8 in rep 3) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 56, 'thisTrialN': 8, 'thisRepN': 3}>
+71.9220 	DATA 	Keypress: space
+71.9356 	EXP 	fixation: autoDraw = False
+71.9356 	EXP 	leftbox: autoDraw = False
+71.9356 	EXP 	rightbox: autoDraw = False
+71.9356 	EXP 	cue: autoDraw = False
+71.9356 	EXP 	target: autoDraw = False
+71.9356 	EXP 	fixation: autoDraw = True
+71.9356 	EXP 	leftbox: autoDraw = True
+71.9356 	EXP 	rightbox: autoDraw = True
+72.1025 	EXP 	Device response: <KeyPress from None: t=71.91875349999827, value=space, duration=0.17230641666901647>
+72.4196 	EXP 	cue: autoDraw = True
+72.4362 	EXP 	fixation: autoDraw = False
+72.5197 	EXP 	cue: autoDraw = False
+72.6199 	INFO 	Keyboard events cleared
+72.6198 	EXP 	target: autoDraw = True
+73.3581 	DATA 	Keypress: space
+73.3693 	EXP 	Device response: <KeyPress from None: t=73.354710874999, value=space, duration=None>
+73.3693 	EXP 	New trial (rep=3, index=9): <Trial 57 (9 in rep 3) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 57, 'thisTrialN': 9, 'thisRepN': 3}>
+73.3868 	EXP 	fixation: autoDraw = False
+73.3868 	EXP 	leftbox: autoDraw = False
+73.3868 	EXP 	rightbox: autoDraw = False
+73.3868 	EXP 	cue: autoDraw = False
+73.3868 	EXP 	target: autoDraw = False
+73.3868 	EXP 	fixation: autoDraw = True
+73.3868 	EXP 	leftbox: autoDraw = True
+73.3868 	EXP 	rightbox: autoDraw = True
+73.5866 	EXP 	Device response: <KeyPress from None: t=73.354710874999, value=space, duration=0.21631008333497448>
+73.8696 	EXP 	cue: autoDraw = True
+73.8866 	EXP 	fixation: autoDraw = False
+73.9697 	EXP 	cue: autoDraw = False
+74.3697 	INFO 	Keyboard events cleared
+74.3696 	EXP 	target: autoDraw = True
+74.6864 	EXP 	Device response: <KeyPress from None: t=74.68569887500053, value=space, duration=None>
+74.6864 	EXP 	New trial (rep=3, index=10): <Trial 58 (10 in rep 3) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 58, 'thisTrialN': 10, 'thisRepN': 3}>
+74.6888 	DATA 	Keypress: space
+74.7022 	EXP 	fixation: autoDraw = False
+74.7022 	EXP 	leftbox: autoDraw = False
+74.7022 	EXP 	rightbox: autoDraw = False
+74.7022 	EXP 	cue: autoDraw = False
+74.7022 	EXP 	target: autoDraw = False
+74.7022 	EXP 	fixation: autoDraw = True
+74.7022 	EXP 	leftbox: autoDraw = True
+74.7022 	EXP 	rightbox: autoDraw = True
+74.8865 	EXP 	Device response: <KeyPress from None: t=74.68569887500053, value=space, duration=0.18830895833161776>
+75.1862 	EXP 	cue: autoDraw = True
+75.2033 	EXP 	fixation: autoDraw = False
+75.2863 	EXP 	cue: autoDraw = False
+75.4863 	INFO 	Keyboard events cleared
+75.4863 	EXP 	target: autoDraw = True
+75.7240 	DATA 	Keypress: space
+75.7360 	EXP 	Device response: <KeyPress from None: t=75.72066587500012, value=space, duration=None>
+75.7361 	EXP 	New trial (rep=3, index=11): <Trial 59 (11 in rep 3) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 59, 'thisTrialN': 11, 'thisRepN': 3}>
+75.7522 	EXP 	fixation: autoDraw = False
+75.7522 	EXP 	leftbox: autoDraw = False
+75.7522 	EXP 	rightbox: autoDraw = False
+75.7522 	EXP 	cue: autoDraw = False
+75.7522 	EXP 	target: autoDraw = False
+75.7522 	EXP 	fixation: autoDraw = True
+75.7522 	EXP 	leftbox: autoDraw = True
+75.7522 	EXP 	rightbox: autoDraw = True
+75.8863 	EXP 	Device response: <KeyPress from None: t=75.72066587500012, value=space, duration=0.1603134583310748>
+76.2361 	EXP 	cue: autoDraw = True
+76.2530 	EXP 	fixation: autoDraw = False
+76.3365 	EXP 	cue: autoDraw = False
+76.6363 	INFO 	Keyboard events cleared
+76.6362 	EXP 	target: autoDraw = True
+76.8828 	DATA 	Keypress: space
+76.8874 	EXP 	Device response: <KeyPress from None: t=76.87964762499905, value=space, duration=None>
+76.8874 	EXP 	New trial (rep=3, index=12): <Trial 60 (12 in rep 3) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 60, 'thisTrialN': 12, 'thisRepN': 3}>
+76.9029 	EXP 	fixation: autoDraw = False
+76.9029 	EXP 	leftbox: autoDraw = False
+76.9029 	EXP 	rightbox: autoDraw = False
+76.9029 	EXP 	cue: autoDraw = False
+76.9029 	EXP 	target: autoDraw = False
+76.9029 	EXP 	fixation: autoDraw = True
+76.9029 	EXP 	leftbox: autoDraw = True
+76.9029 	EXP 	rightbox: autoDraw = True
+77.0700 	EXP 	Device response: <KeyPress from None: t=76.87964762499905, value=space, duration=0.1803089999993972>
+77.4033 	EXP 	fixation: autoDraw = False
+77.4033 	EXP 	cue: autoDraw = True
+77.5030 	EXP 	cue: autoDraw = False
+77.6031 	INFO 	Keyboard events cleared
+77.6030 	EXP 	target: autoDraw = True
+77.9699 	EXP 	Device response: <KeyPress from None: t=77.9696575416674, value=space, duration=None>
+77.9699 	EXP 	New trial (rep=3, index=13): <Trial 61 (13 in rep 3) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 61, 'thisTrialN': 13, 'thisRepN': 3}>
+77.9726 	DATA 	Keypress: space
+77.9857 	EXP 	fixation: autoDraw = False
+77.9857 	EXP 	leftbox: autoDraw = False
+77.9857 	EXP 	rightbox: autoDraw = False
+77.9857 	EXP 	cue: autoDraw = False
+77.9857 	EXP 	target: autoDraw = False
+77.9857 	EXP 	fixation: autoDraw = True
+77.9857 	EXP 	leftbox: autoDraw = True
+77.9857 	EXP 	rightbox: autoDraw = True
+78.1526 	EXP 	Device response: <KeyPress from None: t=77.9696575416674, value=space, duration=0.16826237499844865>
+78.4696 	EXP 	cue: autoDraw = True
+78.4862 	EXP 	fixation: autoDraw = False
+78.5697 	EXP 	cue: autoDraw = False
+78.9699 	INFO 	Keyboard events cleared
+78.9698 	EXP 	target: autoDraw = True
+79.2030 	EXP 	Device response: <KeyPress from None: t=79.20060933333298, value=space, duration=None>
+79.2030 	EXP 	New trial (rep=3, index=14): <Trial 62 (14 in rep 3) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 62, 'thisTrialN': 14, 'thisRepN': 3}>
+79.2044 	DATA 	Keypress: space
+79.2188 	EXP 	fixation: autoDraw = False
+79.2188 	EXP 	leftbox: autoDraw = False
+79.2188 	EXP 	rightbox: autoDraw = False
+79.2188 	EXP 	cue: autoDraw = False
+79.2188 	EXP 	target: autoDraw = False
+79.2188 	EXP 	fixation: autoDraw = True
+79.2188 	EXP 	leftbox: autoDraw = True
+79.2188 	EXP 	rightbox: autoDraw = True
+79.3692 	EXP 	Device response: <KeyPress from None: t=79.20060933333298, value=space, duration=0.1522946666664211>
+79.7033 	EXP 	cue: autoDraw = True
+79.7196 	EXP 	fixation: autoDraw = False
+79.8028 	EXP 	cue: autoDraw = False
+80.0029 	INFO 	Keyboard events cleared
+80.0029 	EXP 	target: autoDraw = True
+80.0818 	DATA 	Keypress: space
+80.0865 	EXP 	Device response: <KeyPress from None: t=80.07856745833124, value=space, duration=None>
+80.0866 	EXP 	New trial (rep=3, index=15): <Trial 63 (15 in rep 3) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 63, 'thisTrialN': 15, 'thisRepN': 3}>
+80.1029 	EXP 	fixation: autoDraw = False
+80.1029 	EXP 	leftbox: autoDraw = False
+80.1029 	EXP 	rightbox: autoDraw = False
+80.1029 	EXP 	cue: autoDraw = False
+80.1029 	EXP 	target: autoDraw = False
+80.1029 	EXP 	fixation: autoDraw = True
+80.1029 	EXP 	leftbox: autoDraw = True
+80.1029 	EXP 	rightbox: autoDraw = True
+80.2530 	EXP 	Device response: <KeyPress from None: t=80.07856745833124, value=space, duration=0.1603150833361724>
+80.5861 	EXP 	cue: autoDraw = True
+80.6032 	EXP 	fixation: autoDraw = False
+80.6861 	EXP 	cue: autoDraw = False
+81.0863 	INFO 	Keyboard events cleared
+81.0862 	EXP 	target: autoDraw = True
+81.0948 	DATA 	Keypress: space
+81.1032 	EXP 	Device response: <KeyPress from None: t=81.0915499583316, value=space, duration=None>
+81.1033 	EXP 	New trial (rep=4, index=0): <Trial 64 (0 in rep 4) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 64, 'thisTrialN': 0, 'thisRepN': 4}>
+81.1195 	EXP 	fixation: autoDraw = False
+81.1195 	EXP 	leftbox: autoDraw = False
+81.1195 	EXP 	rightbox: autoDraw = False
+81.1195 	EXP 	cue: autoDraw = False
+81.1195 	EXP 	target: autoDraw = False
+81.1195 	EXP 	fixation: autoDraw = True
+81.1195 	EXP 	leftbox: autoDraw = True
+81.1195 	EXP 	rightbox: autoDraw = True
+81.2700 	EXP 	Device response: <KeyPress from None: t=81.0915499583316, value=space, duration=0.16829875000257744>
+81.6030 	EXP 	cue: autoDraw = True
+81.6199 	EXP 	fixation: autoDraw = False
+81.7027 	EXP 	cue: autoDraw = False
+81.9030 	INFO 	Keyboard events cleared
+81.9029 	EXP 	target: autoDraw = True
+82.1691 	EXP 	Device response: <KeyPress from None: t=82.16453683333384, value=space, duration=None>
+82.1691 	EXP 	New trial (rep=4, index=1): <Trial 65 (1 in rep 4) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 65, 'thisTrialN': 1, 'thisRepN': 4}>
+82.1700 	DATA 	Keypress: space
+82.1858 	EXP 	fixation: autoDraw = False
+82.1858 	EXP 	leftbox: autoDraw = False
+82.1858 	EXP 	rightbox: autoDraw = False
+82.1858 	EXP 	cue: autoDraw = False
+82.1858 	EXP 	target: autoDraw = False
+82.1858 	EXP 	fixation: autoDraw = True
+82.1858 	EXP 	leftbox: autoDraw = True
+82.1858 	EXP 	rightbox: autoDraw = True
+82.2865 	EXP 	Device response: <KeyPress from None: t=82.16453683333384, value=space, duration=0.1131313333316939>
+82.6696 	EXP 	cue: autoDraw = True
+82.6864 	EXP 	fixation: autoDraw = False
+82.7695 	EXP 	cue: autoDraw = False
+83.1696 	INFO 	Keyboard events cleared
+83.1695 	EXP 	target: autoDraw = True
+83.1987 	DATA 	Keypress: space
+83.2033 	EXP 	Device response: <KeyPress from None: t=83.19550012499894, value=space, duration=None>
+83.2034 	EXP 	New trial (rep=4, index=2): <Trial 66 (2 in rep 4) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 66, 'thisTrialN': 2, 'thisRepN': 4}>
+83.2193 	EXP 	fixation: autoDraw = False
+83.2193 	EXP 	leftbox: autoDraw = False
+83.2193 	EXP 	rightbox: autoDraw = False
+83.2193 	EXP 	cue: autoDraw = False
+83.2193 	EXP 	target: autoDraw = False
+83.2193 	EXP 	fixation: autoDraw = True
+83.2193 	EXP 	leftbox: autoDraw = True
+83.2193 	EXP 	rightbox: autoDraw = True
+83.3693 	EXP 	Device response: <KeyPress from None: t=83.19550012499894, value=space, duration=0.16431237500000861>
+83.7029 	EXP 	cue: autoDraw = True
+83.7195 	EXP 	fixation: autoDraw = False
+83.8028 	EXP 	cue: autoDraw = False
+83.9029 	INFO 	Keyboard events cleared
+83.9028 	EXP 	target: autoDraw = True
+84.2191 	EXP 	Device response: <KeyPress from None: t=84.21853229166663, value=space, duration=None>
+84.2191 	EXP 	New trial (rep=4, index=3): <Trial 67 (3 in rep 4) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 67, 'thisTrialN': 3, 'thisRepN': 4}>
+84.2217 	DATA 	Keypress: space
+84.2355 	EXP 	fixation: autoDraw = False
+84.2355 	EXP 	leftbox: autoDraw = False
+84.2355 	EXP 	rightbox: autoDraw = False
+84.2355 	EXP 	cue: autoDraw = False
+84.2355 	EXP 	target: autoDraw = False
+84.2355 	EXP 	fixation: autoDraw = True
+84.2355 	EXP 	leftbox: autoDraw = True
+84.2355 	EXP 	rightbox: autoDraw = True
+84.3691 	EXP 	Device response: <KeyPress from None: t=84.21853229166663, value=space, duration=0.14823870833424735>
+84.7196 	EXP 	cue: autoDraw = True
+84.7362 	EXP 	fixation: autoDraw = False
+84.8195 	EXP 	cue: autoDraw = False
+85.1193 	INFO 	Keyboard events cleared
+85.1192 	EXP 	target: autoDraw = True
+85.4524 	EXP 	Device response: <KeyPress from None: t=85.44746179166759, value=space, duration=None>
+85.4524 	EXP 	New trial (rep=4, index=4): <Trial 68 (4 in rep 4) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 68, 'thisTrialN': 4, 'thisRepN': 4}>
+85.4528 	DATA 	Keypress: space
+85.4699 	EXP 	fixation: autoDraw = False
+85.4699 	EXP 	leftbox: autoDraw = False
+85.4699 	EXP 	rightbox: autoDraw = False
+85.4699 	EXP 	cue: autoDraw = False
+85.4699 	EXP 	target: autoDraw = False
+85.4699 	EXP 	fixation: autoDraw = True
+85.4699 	EXP 	leftbox: autoDraw = True
+85.4699 	EXP 	rightbox: autoDraw = True
+85.6034 	EXP 	Device response: <KeyPress from None: t=85.44746179166759, value=space, duration=0.1482986249975511>
+85.9527 	EXP 	cue: autoDraw = True
+85.9696 	EXP 	fixation: autoDraw = False
+86.0528 	EXP 	cue: autoDraw = False
+86.3529 	INFO 	Keyboard events cleared
+86.3528 	EXP 	target: autoDraw = True
+86.4522 	EXP 	Device response: <KeyPress from None: t=86.44743545833262, value=space, duration=None>
+86.4522 	EXP 	New trial (rep=4, index=5): <Trial 69 (5 in rep 4) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 69, 'thisTrialN': 5, 'thisRepN': 4}>
+86.4526 	DATA 	Keypress: space
+86.4698 	EXP 	fixation: autoDraw = False
+86.4698 	EXP 	leftbox: autoDraw = False
+86.4698 	EXP 	rightbox: autoDraw = False
+86.4698 	EXP 	cue: autoDraw = False
+86.4698 	EXP 	target: autoDraw = False
+86.4698 	EXP 	fixation: autoDraw = True
+86.4698 	EXP 	leftbox: autoDraw = True
+86.4698 	EXP 	rightbox: autoDraw = True
+86.6192 	EXP 	Device response: <KeyPress from None: t=86.44743545833262, value=space, duration=0.1562566666652856>
+86.9528 	EXP 	cue: autoDraw = True
+86.9695 	EXP 	fixation: autoDraw = False
+87.0529 	EXP 	cue: autoDraw = False
+87.3529 	INFO 	Keyboard events cleared
+87.3529 	EXP 	target: autoDraw = True
+87.6756 	DATA 	Keypress: space
+87.6860 	EXP 	Device response: <KeyPress from None: t=87.67240108333135, value=space, duration=None>
+87.6860 	EXP 	New trial (rep=4, index=6): <Trial 70 (6 in rep 4) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 70, 'thisTrialN': 6, 'thisRepN': 4}>
+87.7030 	EXP 	fixation: autoDraw = False
+87.7030 	EXP 	leftbox: autoDraw = False
+87.7030 	EXP 	rightbox: autoDraw = False
+87.7030 	EXP 	cue: autoDraw = False
+87.7030 	EXP 	target: autoDraw = False
+87.7030 	EXP 	fixation: autoDraw = True
+87.7030 	EXP 	leftbox: autoDraw = True
+87.7030 	EXP 	rightbox: autoDraw = True
+87.8524 	EXP 	Device response: <KeyPress from None: t=87.67240108333135, value=space, duration=0.1763056666677585>
+88.1853 	EXP 	cue: autoDraw = True
+88.2031 	EXP 	fixation: autoDraw = False
+88.2861 	EXP 	cue: autoDraw = False
+88.3860 	INFO 	Keyboard events cleared
+88.3860 	EXP 	target: autoDraw = True
+88.6864 	EXP 	Device response: <KeyPress from None: t=88.68238416666645, value=space, duration=None>
+88.6865 	EXP 	New trial (rep=4, index=7): <Trial 71 (7 in rep 4) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 71, 'thisTrialN': 7, 'thisRepN': 4}>
+88.6868 	DATA 	Keypress: space
+88.7026 	EXP 	fixation: autoDraw = False
+88.7026 	EXP 	leftbox: autoDraw = False
+88.7026 	EXP 	rightbox: autoDraw = False
+88.7026 	EXP 	cue: autoDraw = False
+88.7026 	EXP 	target: autoDraw = False
+88.7026 	EXP 	fixation: autoDraw = True
+88.7026 	EXP 	leftbox: autoDraw = True
+88.7026 	EXP 	rightbox: autoDraw = True
+88.8032 	EXP 	Device response: <KeyPress from None: t=88.68238416666645, value=space, duration=0.11645666666663601>
+89.1863 	EXP 	cue: autoDraw = True
+89.2029 	EXP 	fixation: autoDraw = False
+89.2862 	EXP 	cue: autoDraw = False
+89.6862 	INFO 	Keyboard events cleared
+89.6862 	EXP 	target: autoDraw = True
+90.0666 	DATA 	Keypress: space
+90.0702 	EXP 	Device response: <KeyPress from None: t=90.06335000000036, value=space, duration=None>
+90.0702 	EXP 	New trial (rep=4, index=8): <Trial 72 (8 in rep 4) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 72, 'thisTrialN': 8, 'thisRepN': 4}>
+90.0857 	EXP 	fixation: autoDraw = False
+90.0857 	EXP 	leftbox: autoDraw = False
+90.0857 	EXP 	rightbox: autoDraw = False
+90.0857 	EXP 	cue: autoDraw = False
+90.0857 	EXP 	target: autoDraw = False
+90.0857 	EXP 	fixation: autoDraw = True
+90.0857 	EXP 	leftbox: autoDraw = True
+90.0857 	EXP 	rightbox: autoDraw = True
+90.2358 	EXP 	Device response: <KeyPress from None: t=90.06335000000036, value=space, duration=0.1563017916669196>
+90.5694 	EXP 	cue: autoDraw = True
+90.5865 	EXP 	fixation: autoDraw = False
+90.6695 	EXP 	cue: autoDraw = False
+91.0696 	INFO 	Keyboard events cleared
+91.0696 	EXP 	target: autoDraw = True
+91.6198 	EXP 	Device response: <KeyPress from None: t=91.61897520833372, value=space, duration=None>
+91.6199 	EXP 	New trial (rep=4, index=9): <Trial 73 (9 in rep 4) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 73, 'thisTrialN': 9, 'thisRepN': 4}>
+91.6222 	DATA 	Keypress: space
+91.6356 	EXP 	fixation: autoDraw = False
+91.6356 	EXP 	leftbox: autoDraw = False
+91.6356 	EXP 	rightbox: autoDraw = False
+91.6356 	EXP 	cue: autoDraw = False
+91.6356 	EXP 	target: autoDraw = False
+91.6356 	EXP 	fixation: autoDraw = True
+91.6356 	EXP 	leftbox: autoDraw = True
+91.6356 	EXP 	rightbox: autoDraw = True
+91.8191 	EXP 	Device response: <KeyPress from None: t=91.61897520833372, value=space, duration=0.19163112499882118>
+92.1353 	EXP 	fixation: autoDraw = False
+92.1353 	EXP 	cue: autoDraw = True
+92.2356 	EXP 	cue: autoDraw = False
+92.6193 	INFO 	Keyboard events cleared
+92.6192 	EXP 	target: autoDraw = True
+93.2258 	DATA 	Keypress: space
+93.2368 	EXP 	Device response: <KeyPress from None: t=93.2222780000011, value=space, duration=None>
+93.2369 	EXP 	New trial (rep=4, index=10): <Trial 74 (10 in rep 4) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 74, 'thisTrialN': 10, 'thisRepN': 4}>
+93.2530 	EXP 	fixation: autoDraw = False
+93.2530 	EXP 	leftbox: autoDraw = False
+93.2530 	EXP 	rightbox: autoDraw = False
+93.2530 	EXP 	cue: autoDraw = False
+93.2530 	EXP 	target: autoDraw = False
+93.2530 	EXP 	fixation: autoDraw = True
+93.2530 	EXP 	leftbox: autoDraw = True
+93.2530 	EXP 	rightbox: autoDraw = True
+93.3857 	EXP 	Device response: <KeyPress from None: t=93.2222780000011, value=space, duration=0.14829537499826984>
+93.7363 	EXP 	cue: autoDraw = True
+93.7527 	EXP 	fixation: autoDraw = False
+93.8362 	EXP 	cue: autoDraw = False
+93.9364 	INFO 	Keyboard events cleared
+93.9363 	EXP 	target: autoDraw = True
+94.2117 	DATA 	Keypress: space
+94.2193 	EXP 	Device response: <KeyPress from None: t=94.20824387500033, value=space, duration=None>
+94.2194 	EXP 	New trial (rep=4, index=11): <Trial 75 (11 in rep 4) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 75, 'thisTrialN': 11, 'thisRepN': 4}>
+94.2363 	EXP 	fixation: autoDraw = False
+94.2363 	EXP 	leftbox: autoDraw = False
+94.2363 	EXP 	rightbox: autoDraw = False
+94.2363 	EXP 	cue: autoDraw = False
+94.2363 	EXP 	target: autoDraw = False
+94.2363 	EXP 	fixation: autoDraw = True
+94.2363 	EXP 	leftbox: autoDraw = True
+94.2363 	EXP 	rightbox: autoDraw = True
+94.3524 	EXP 	Device response: <KeyPress from None: t=94.20824387500033, value=space, duration=0.1403127499979746>
+94.7189 	EXP 	cue: autoDraw = True
+94.7363 	EXP 	fixation: autoDraw = False
+94.8195 	EXP 	cue: autoDraw = False
+95.0195 	INFO 	Keyboard events cleared
+95.0195 	EXP 	target: autoDraw = True
+95.2861 	EXP 	Device response: <KeyPress from None: t=95.28321945833159, value=space, duration=None>
+95.2861 	EXP 	New trial (rep=4, index=12): <Trial 76 (12 in rep 4) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 76, 'thisTrialN': 12, 'thisRepN': 4}>
+95.2877 	DATA 	Keypress: space
+95.3023 	EXP 	fixation: autoDraw = False
+95.3023 	EXP 	leftbox: autoDraw = False
+95.3023 	EXP 	rightbox: autoDraw = False
+95.3023 	EXP 	cue: autoDraw = False
+95.3023 	EXP 	target: autoDraw = False
+95.3023 	EXP 	fixation: autoDraw = True
+95.3023 	EXP 	leftbox: autoDraw = True
+95.3023 	EXP 	rightbox: autoDraw = True
+95.4524 	EXP 	Device response: <KeyPress from None: t=95.28321945833159, value=space, duration=0.1563034166683792>
+95.7857 	EXP 	cue: autoDraw = True
+95.8023 	EXP 	fixation: autoDraw = False
+95.8856 	EXP 	cue: autoDraw = False
+95.9858 	INFO 	Keyboard events cleared
+95.9858 	EXP 	target: autoDraw = True
+96.3188 	EXP 	Device response: <KeyPress from None: t=96.31822974999886, value=space, duration=None>
+96.3189 	EXP 	New trial (rep=4, index=13): <Trial 77 (13 in rep 4) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 77, 'thisTrialN': 13, 'thisRepN': 4}>
+96.3217 	DATA 	Keypress: space
+96.3355 	EXP 	fixation: autoDraw = False
+96.3355 	EXP 	leftbox: autoDraw = False
+96.3355 	EXP 	rightbox: autoDraw = False
+96.3355 	EXP 	cue: autoDraw = False
+96.3355 	EXP 	target: autoDraw = False
+96.3355 	EXP 	fixation: autoDraw = True
+96.3355 	EXP 	leftbox: autoDraw = True
+96.3355 	EXP 	rightbox: autoDraw = True
+96.5024 	EXP 	Device response: <KeyPress from None: t=96.31822974999886, value=space, duration=0.17653645833343035>
+96.8189 	EXP 	cue: autoDraw = True
+96.8357 	EXP 	fixation: autoDraw = False
+96.9191 	EXP 	cue: autoDraw = False
+97.2191 	INFO 	Keyboard events cleared
+97.2190 	EXP 	target: autoDraw = True
+97.5392 	DATA 	Keypress: space
+97.5523 	EXP 	Device response: <KeyPress from None: t=97.53620312500061, value=space, duration=None>
+97.5523 	EXP 	New trial (rep=4, index=14): <Trial 78 (14 in rep 4) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 78, 'thisTrialN': 14, 'thisRepN': 4}>
+97.5689 	EXP 	fixation: autoDraw = False
+97.5689 	EXP 	leftbox: autoDraw = False
+97.5689 	EXP 	rightbox: autoDraw = False
+97.5689 	EXP 	cue: autoDraw = False
+97.5689 	EXP 	target: autoDraw = False
+97.5689 	EXP 	fixation: autoDraw = True
+97.5689 	EXP 	leftbox: autoDraw = True
+97.5689 	EXP 	rightbox: autoDraw = True
+97.7026 	EXP 	Device response: <KeyPress from None: t=97.53620312500061, value=space, duration=0.1602704166652984>
+98.0524 	EXP 	cue: autoDraw = True
+98.0689 	EXP 	fixation: autoDraw = False
+98.1523 	EXP 	cue: autoDraw = False
+98.3522 	INFO 	Keyboard events cleared
+98.3522 	EXP 	target: autoDraw = True
+98.6357 	EXP 	Device response: <KeyPress from None: t=98.63315154166776, value=space, duration=None>
+98.6357 	EXP 	New trial (rep=4, index=15): <Trial 79 (15 in rep 4) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 79, 'thisTrialN': 15, 'thisRepN': 4}>
+98.6380 	DATA 	Keypress: space
+98.6521 	EXP 	fixation: autoDraw = False
+98.6521 	EXP 	leftbox: autoDraw = False
+98.6521 	EXP 	rightbox: autoDraw = False
+98.6521 	EXP 	cue: autoDraw = False
+98.6521 	EXP 	target: autoDraw = False
+98.6521 	EXP 	fixation: autoDraw = True
+98.6521 	EXP 	leftbox: autoDraw = True
+98.6521 	EXP 	rightbox: autoDraw = True
+98.8025 	EXP 	Device response: <KeyPress from None: t=98.63315154166776, value=space, duration=0.1683421666639333>
+99.1357 	EXP 	cue: autoDraw = True
+99.1524 	EXP 	fixation: autoDraw = False
+99.2356 	EXP 	cue: autoDraw = False
+99.4357 	INFO 	Keyboard events cleared
+99.4356 	EXP 	target: autoDraw = True
+99.6824 	DATA 	Keypress: space
+99.6876 	EXP 	Device response: <KeyPress from None: t=99.67910029166524, value=space, duration=None>
+99.6877 	EXP 	New trial (rep=5, index=0): <Trial 80 (0 in rep 5) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 80, 'thisTrialN': 0, 'thisRepN': 5}>
+99.7023 	EXP 	fixation: autoDraw = False
+99.7023 	EXP 	leftbox: autoDraw = False
+99.7023 	EXP 	rightbox: autoDraw = False
+99.7023 	EXP 	cue: autoDraw = False
+99.7023 	EXP 	target: autoDraw = False
+99.7023 	EXP 	fixation: autoDraw = True
+99.7023 	EXP 	leftbox: autoDraw = True
+99.7023 	EXP 	rightbox: autoDraw = True
+99.8358 	EXP 	Device response: <KeyPress from None: t=99.67910029166524, value=space, duration=0.14834187499945983>
+100.2022 	EXP 	fixation: autoDraw = False
+100.2022 	EXP 	cue: autoDraw = True
+100.3023 	EXP 	cue: autoDraw = False
+100.5023 	INFO 	Keyboard events cleared
+100.5023 	EXP 	target: autoDraw = True
+101.0187 	EXP 	Device response: <KeyPress from None: t=101.01811129166526, value=space, duration=None>
+101.0187 	EXP 	New trial (rep=5, index=1): <Trial 81 (1 in rep 5) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 81, 'thisTrialN': 1, 'thisRepN': 5}>
+101.0214 	DATA 	Keypress: space
+101.0355 	EXP 	fixation: autoDraw = False
+101.0355 	EXP 	leftbox: autoDraw = False
+101.0355 	EXP 	rightbox: autoDraw = False
+101.0355 	EXP 	cue: autoDraw = False
+101.0355 	EXP 	target: autoDraw = False
+101.0355 	EXP 	fixation: autoDraw = True
+101.0355 	EXP 	leftbox: autoDraw = True
+101.0355 	EXP 	rightbox: autoDraw = True
+101.1856 	EXP 	Device response: <KeyPress from None: t=101.01811129166526, value=space, duration=0.15629412500129547>
+101.5190 	EXP 	cue: autoDraw = True
+101.5357 	EXP 	fixation: autoDraw = False
+101.6190 	EXP 	cue: autoDraw = False
+101.9195 	INFO 	Keyboard events cleared
+101.9194 	EXP 	target: autoDraw = True
+101.9734 	DATA 	Keypress: space
+101.9859 	EXP 	Device response: <KeyPress from None: t=101.9700630833322, value=space, duration=None>
+101.9860 	EXP 	New trial (rep=5, index=2): <Trial 82 (2 in rep 5) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 82, 'thisTrialN': 2, 'thisRepN': 5}>
+102.0021 	EXP 	fixation: autoDraw = False
+102.0021 	EXP 	leftbox: autoDraw = False
+102.0021 	EXP 	rightbox: autoDraw = False
+102.0021 	EXP 	cue: autoDraw = False
+102.0021 	EXP 	target: autoDraw = False
+102.0021 	EXP 	fixation: autoDraw = True
+102.0021 	EXP 	leftbox: autoDraw = True
+102.0021 	EXP 	rightbox: autoDraw = True
+102.1524 	EXP 	Device response: <KeyPress from None: t=101.9700630833322, value=space, duration=0.18044454166738433>
+102.4861 	EXP 	cue: autoDraw = True
+102.5026 	EXP 	fixation: autoDraw = False
+102.5864 	EXP 	cue: autoDraw = False
+102.6861 	INFO 	Keyboard events cleared
+102.6861 	EXP 	target: autoDraw = True
+103.2323 	DATA 	Keypress: space
+103.2372 	EXP 	Device response: <KeyPress from None: t=103.22905345833351, value=space, duration=None>
+103.2372 	EXP 	New trial (rep=5, index=3): <Trial 83 (3 in rep 5) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 83, 'thisTrialN': 3, 'thisRepN': 5}>
+103.2527 	EXP 	fixation: autoDraw = False
+103.2527 	EXP 	leftbox: autoDraw = False
+103.2527 	EXP 	rightbox: autoDraw = False
+103.2527 	EXP 	cue: autoDraw = False
+103.2527 	EXP 	target: autoDraw = False
+103.2527 	EXP 	fixation: autoDraw = True
+103.2527 	EXP 	leftbox: autoDraw = True
+103.2527 	EXP 	rightbox: autoDraw = True
+103.3857 	EXP 	Device response: <KeyPress from None: t=103.22905345833351, value=space, duration=0.14830729166715173>
+103.7528 	EXP 	fixation: autoDraw = False
+103.7528 	EXP 	cue: autoDraw = True
+103.8527 	EXP 	cue: autoDraw = False
+104.2527 	INFO 	Keyboard events cleared
+104.2527 	EXP 	target: autoDraw = True
+104.5028 	EXP 	Device response: <KeyPress from None: t=104.5010223749996, value=space, duration=None>
+104.5029 	EXP 	New trial (rep=5, index=4): <Trial 84 (4 in rep 5) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 84, 'thisTrialN': 4, 'thisRepN': 5}>
+104.5045 	DATA 	Keypress: space
+104.5186 	EXP 	fixation: autoDraw = False
+104.5186 	EXP 	leftbox: autoDraw = False
+104.5186 	EXP 	rightbox: autoDraw = False
+104.5186 	EXP 	cue: autoDraw = False
+104.5186 	EXP 	target: autoDraw = False
+104.5186 	EXP 	fixation: autoDraw = True
+104.5186 	EXP 	leftbox: autoDraw = True
+104.5186 	EXP 	rightbox: autoDraw = True
+104.6356 	EXP 	Device response: <KeyPress from None: t=104.5010223749996, value=space, duration=0.13230491666763555>
+105.0030 	EXP 	cue: autoDraw = True
+105.0194 	EXP 	fixation: autoDraw = False
+105.1027 	EXP 	cue: autoDraw = False
+105.4028 	INFO 	Keyboard events cleared
+105.4028 	EXP 	target: autoDraw = True
+105.7357 	EXP 	Device response: <KeyPress from None: t=105.73298383333167, value=space, duration=None>
+105.7357 	EXP 	New trial (rep=5, index=5): <Trial 85 (5 in rep 5) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 85, 'thisTrialN': 5, 'thisRepN': 5}>
+105.7379 	DATA 	Keypress: space
+105.7520 	EXP 	fixation: autoDraw = False
+105.7520 	EXP 	leftbox: autoDraw = False
+105.7520 	EXP 	rightbox: autoDraw = False
+105.7520 	EXP 	cue: autoDraw = False
+105.7520 	EXP 	target: autoDraw = False
+105.7520 	EXP 	fixation: autoDraw = True
+105.7520 	EXP 	leftbox: autoDraw = True
+105.7520 	EXP 	rightbox: autoDraw = True
+105.9191 	EXP 	Device response: <KeyPress from None: t=105.73298383333167, value=space, duration=0.17260408333459054>
+106.2364 	EXP 	cue: autoDraw = True
+106.2528 	EXP 	fixation: autoDraw = False
+106.3363 	EXP 	cue: autoDraw = False
+106.7363 	INFO 	Keyboard events cleared
+106.7363 	EXP 	target: autoDraw = True
+106.8029 	EXP 	Device response: <KeyPress from None: t=106.79897191666532, value=space, duration=None>
+106.8029 	EXP 	New trial (rep=5, index=6): <Trial 86 (6 in rep 5) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 86, 'thisTrialN': 6, 'thisRepN': 5}>
+106.8043 	DATA 	Keypress: space
+106.8186 	EXP 	fixation: autoDraw = False
+106.8186 	EXP 	leftbox: autoDraw = False
+106.8186 	EXP 	rightbox: autoDraw = False
+106.8186 	EXP 	cue: autoDraw = False
+106.8186 	EXP 	target: autoDraw = False
+106.8186 	EXP 	fixation: autoDraw = True
+106.8186 	EXP 	leftbox: autoDraw = True
+106.8186 	EXP 	rightbox: autoDraw = True
+106.9696 	EXP 	Device response: <KeyPress from None: t=106.79897191666532, value=space, duration=0.156293750002078>
+107.3022 	EXP 	cue: autoDraw = True
+107.3193 	EXP 	fixation: autoDraw = False
+107.4025 	EXP 	cue: autoDraw = False
+107.7030 	INFO 	Keyboard events cleared
+107.7030 	EXP 	target: autoDraw = True
+107.9026 	EXP 	Device response: <KeyPress from None: t=107.89994316666707, value=space, duration=None>
+107.9027 	EXP 	New trial (rep=5, index=7): <Trial 87 (7 in rep 5) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 87, 'thisTrialN': 7, 'thisRepN': 5}>
+107.9042 	DATA 	Keypress: space
+107.9186 	EXP 	fixation: autoDraw = False
+107.9186 	EXP 	leftbox: autoDraw = False
+107.9186 	EXP 	rightbox: autoDraw = False
+107.9186 	EXP 	cue: autoDraw = False
+107.9186 	EXP 	target: autoDraw = False
+107.9186 	EXP 	fixation: autoDraw = True
+107.9186 	EXP 	leftbox: autoDraw = True
+107.9186 	EXP 	rightbox: autoDraw = True
+108.0529 	EXP 	Device response: <KeyPress from None: t=107.89994316666707, value=space, duration=0.15237512499879813>
+108.4027 	EXP 	cue: autoDraw = True
+108.4193 	EXP 	fixation: autoDraw = False
+108.5026 	EXP 	cue: autoDraw = False
+108.8028 	INFO 	Keyboard events cleared
+108.8027 	EXP 	target: autoDraw = True
+109.0075 	DATA 	Keypress: space
+109.0192 	EXP 	Device response: <KeyPress from None: t=109.00419912500001, value=space, duration=None>
+109.0192 	EXP 	New trial (rep=5, index=8): <Trial 88 (8 in rep 5) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 88, 'thisTrialN': 8, 'thisRepN': 5}>
+109.0365 	EXP 	fixation: autoDraw = False
+109.0365 	EXP 	leftbox: autoDraw = False
+109.0365 	EXP 	rightbox: autoDraw = False
+109.0365 	EXP 	cue: autoDraw = False
+109.0365 	EXP 	target: autoDraw = False
+109.0365 	EXP 	fixation: autoDraw = True
+109.0365 	EXP 	leftbox: autoDraw = True
+109.0365 	EXP 	rightbox: autoDraw = True
+109.1697 	EXP 	Device response: <KeyPress from None: t=109.00419912500001, value=space, duration=0.156073333331733>
+109.5190 	EXP 	cue: autoDraw = True
+109.5356 	EXP 	fixation: autoDraw = False
+109.6188 	EXP 	cue: autoDraw = False
+109.8619 	DATA 	Keypress: space
+109.8692 	EXP 	Device response: <KeyPress from None: t=109.85889879166643, value=space, duration=None>
+110.0195 	INFO 	Keyboard events cleared
+110.0194 	EXP 	target: autoDraw = True
+110.0355 	EXP 	Device response: <KeyPress from None: t=109.85889879166643, value=space, duration=0.1723273749994405>
+110.5822 	DATA 	Keypress: space
+110.5875 	EXP 	Device response: <KeyPress from None: t=110.57885650000026, value=space, duration=None>
+110.5875 	EXP 	New trial (rep=5, index=9): <Trial 89 (9 in rep 5) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 89, 'thisTrialN': 9, 'thisRepN': 5}>
+110.6029 	EXP 	fixation: autoDraw = False
+110.6029 	EXP 	leftbox: autoDraw = False
+110.6029 	EXP 	rightbox: autoDraw = False
+110.6029 	EXP 	cue: autoDraw = False
+110.6029 	EXP 	target: autoDraw = False
+110.6029 	EXP 	fixation: autoDraw = True
+110.6029 	EXP 	leftbox: autoDraw = True
+110.6029 	EXP 	rightbox: autoDraw = True
+110.7190 	EXP 	Device response: <KeyPress from None: t=110.57885650000026, value=space, duration=0.12834087499868474>
+111.1027 	EXP 	fixation: autoDraw = False
+111.1027 	EXP 	cue: autoDraw = True
+111.2027 	EXP 	cue: autoDraw = False
+111.3027 	INFO 	Keyboard events cleared
+111.3026 	EXP 	target: autoDraw = True
+111.5611 	DATA 	Keypress: space
+111.5690 	EXP 	Device response: <KeyPress from None: t=111.55786208333302, value=space, duration=None>
+111.5691 	EXP 	New trial (rep=5, index=10): <Trial 90 (10 in rep 5) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 90, 'thisTrialN': 10, 'thisRepN': 5}>
+111.5854 	EXP 	fixation: autoDraw = False
+111.5854 	EXP 	leftbox: autoDraw = False
+111.5854 	EXP 	rightbox: autoDraw = False
+111.5854 	EXP 	cue: autoDraw = False
+111.5854 	EXP 	target: autoDraw = False
+111.5854 	EXP 	fixation: autoDraw = True
+111.5854 	EXP 	leftbox: autoDraw = True
+111.5854 	EXP 	rightbox: autoDraw = True
+111.7027 	EXP 	Device response: <KeyPress from None: t=111.55786208333302, value=space, duration=0.14431400000103167>
+112.0693 	EXP 	cue: autoDraw = True
+112.0861 	EXP 	fixation: autoDraw = False
+112.1688 	EXP 	cue: autoDraw = False
+112.2695 	INFO 	Keyboard events cleared
+112.2695 	EXP 	target: autoDraw = True
+112.5774 	DATA 	Keypress: space
+112.5856 	EXP 	Device response: <KeyPress from None: t=112.57408533333364, value=space, duration=None>
+112.5857 	EXP 	New trial (rep=5, index=11): <Trial 91 (11 in rep 5) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 91, 'thisTrialN': 11, 'thisRepN': 5}>
+112.6027 	EXP 	fixation: autoDraw = False
+112.6027 	EXP 	leftbox: autoDraw = False
+112.6027 	EXP 	rightbox: autoDraw = False
+112.6027 	EXP 	cue: autoDraw = False
+112.6027 	EXP 	target: autoDraw = False
+112.6027 	EXP 	fixation: autoDraw = True
+112.6027 	EXP 	leftbox: autoDraw = True
+112.6027 	EXP 	rightbox: autoDraw = True
+112.7522 	EXP 	Device response: <KeyPress from None: t=112.57408533333364, value=space, duration=0.17611974999817903>
+113.0861 	EXP 	cue: autoDraw = True
+113.1028 	EXP 	fixation: autoDraw = False
+113.1859 	EXP 	cue: autoDraw = False
+113.2861 	INFO 	Keyboard events cleared
+113.2860 	EXP 	target: autoDraw = True
+113.6100 	DATA 	Keypress: space
+113.6191 	EXP 	Device response: <KeyPress from None: t=113.60681779166771, value=space, duration=None>
+113.6191 	EXP 	New trial (rep=5, index=12): <Trial 92 (12 in rep 5) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 92, 'thisTrialN': 12, 'thisRepN': 5}>
+113.6361 	EXP 	fixation: autoDraw = False
+113.6361 	EXP 	leftbox: autoDraw = False
+113.6361 	EXP 	rightbox: autoDraw = False
+113.6361 	EXP 	cue: autoDraw = False
+113.6361 	EXP 	target: autoDraw = False
+113.6361 	EXP 	fixation: autoDraw = True
+113.6361 	EXP 	leftbox: autoDraw = True
+113.6361 	EXP 	rightbox: autoDraw = True
+113.7529 	EXP 	Device response: <KeyPress from None: t=113.60681779166771, value=space, duration=0.1443145833327435>
+114.1189 	EXP 	cue: autoDraw = True
+114.1361 	EXP 	fixation: autoDraw = False
+114.2192 	EXP 	cue: autoDraw = False
+114.4193 	INFO 	Keyboard events cleared
+114.4192 	EXP 	target: autoDraw = True
+114.6990 	DATA 	Keypress: space
+114.7038 	EXP 	Device response: <KeyPress from None: t=114.6957882083334, value=space, duration=None>
+114.7038 	EXP 	New trial (rep=5, index=13): <Trial 93 (13 in rep 5) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 93, 'thisTrialN': 13, 'thisRepN': 5}>
+114.7194 	EXP 	fixation: autoDraw = False
+114.7194 	EXP 	leftbox: autoDraw = False
+114.7194 	EXP 	rightbox: autoDraw = False
+114.7194 	EXP 	cue: autoDraw = False
+114.7194 	EXP 	target: autoDraw = False
+114.7194 	EXP 	fixation: autoDraw = True
+114.7194 	EXP 	leftbox: autoDraw = True
+114.7194 	EXP 	rightbox: autoDraw = True
+114.8355 	EXP 	Device response: <KeyPress from None: t=114.6957882083334, value=space, duration=0.12830874999781372>
+115.2195 	EXP 	fixation: autoDraw = False
+115.2195 	EXP 	cue: autoDraw = True
+115.3192 	EXP 	cue: autoDraw = False
+115.7193 	INFO 	Keyboard events cleared
+115.7193 	EXP 	target: autoDraw = True
+115.9411 	DATA 	Keypress: space
+115.9521 	EXP 	Device response: <KeyPress from None: t=115.93775708333123, value=space, duration=None>
+115.9522 	EXP 	New trial (rep=5, index=14): <Trial 94 (14 in rep 5) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 94, 'thisTrialN': 14, 'thisRepN': 5}>
+115.9696 	EXP 	fixation: autoDraw = False
+115.9696 	EXP 	leftbox: autoDraw = False
+115.9696 	EXP 	rightbox: autoDraw = False
+115.9696 	EXP 	cue: autoDraw = False
+115.9696 	EXP 	target: autoDraw = False
+115.9696 	EXP 	fixation: autoDraw = True
+115.9696 	EXP 	leftbox: autoDraw = True
+115.9696 	EXP 	rightbox: autoDraw = True
+116.1029 	EXP 	Device response: <KeyPress from None: t=115.93775708333123, value=space, duration=0.1562969166698167>
+116.4525 	EXP 	cue: autoDraw = True
+116.4693 	EXP 	fixation: autoDraw = False
+116.5525 	EXP 	cue: autoDraw = False
+116.7521 	INFO 	Keyboard events cleared
+116.7520 	EXP 	target: autoDraw = True
+117.0324 	DATA 	Keypress: space
+117.0371 	EXP 	Device response: <KeyPress from None: t=117.02910074999818, value=space, duration=None>
+117.0371 	EXP 	New trial (rep=5, index=15): <Trial 95 (15 in rep 5) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 95, 'thisTrialN': 15, 'thisRepN': 5}>
+117.0527 	EXP 	fixation: autoDraw = False
+117.0527 	EXP 	leftbox: autoDraw = False
+117.0527 	EXP 	rightbox: autoDraw = False
+117.0527 	EXP 	cue: autoDraw = False
+117.0527 	EXP 	target: autoDraw = False
+117.0527 	EXP 	fixation: autoDraw = True
+117.0527 	EXP 	leftbox: autoDraw = True
+117.0527 	EXP 	rightbox: autoDraw = True
+117.1862 	EXP 	Device response: <KeyPress from None: t=117.02910074999818, value=space, duration=0.14794095833349274>
+117.5525 	EXP 	fixation: autoDraw = False
+117.5525 	EXP 	cue: autoDraw = True
+117.6526 	EXP 	cue: autoDraw = False
+117.8526 	INFO 	Keyboard events cleared
+117.8526 	EXP 	target: autoDraw = True
+118.2109 	DATA 	Keypress: space
+118.2190 	EXP 	Device response: <KeyPress from None: t=118.20767816666557, value=space, duration=None>
+118.2190 	EXP 	New trial (rep=6, index=0): <Trial 96 (0 in rep 6) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 96, 'thisTrialN': 0, 'thisRepN': 6}>
+118.2360 	EXP 	fixation: autoDraw = False
+118.2360 	EXP 	leftbox: autoDraw = False
+118.2360 	EXP 	rightbox: autoDraw = False
+118.2360 	EXP 	cue: autoDraw = False
+118.2360 	EXP 	target: autoDraw = False
+118.2360 	EXP 	fixation: autoDraw = True
+118.2360 	EXP 	leftbox: autoDraw = True
+118.2360 	EXP 	rightbox: autoDraw = True
+118.3689 	EXP 	Device response: <KeyPress from None: t=118.20767816666557, value=space, duration=0.1563417916659091>
+118.7192 	EXP 	cue: autoDraw = True
+118.7362 	EXP 	fixation: autoDraw = False
+118.8192 	EXP 	cue: autoDraw = False
+118.9192 	INFO 	Keyboard events cleared
+118.9191 	EXP 	target: autoDraw = True
+119.4363 	EXP 	Device response: <KeyPress from None: t=119.43571629166763, value=space, duration=None>
+119.4363 	EXP 	New trial (rep=6, index=1): <Trial 97 (1 in rep 6) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 97, 'thisTrialN': 1, 'thisRepN': 6}>
+119.4391 	DATA 	Keypress: space
+119.4520 	EXP 	fixation: autoDraw = False
+119.4520 	EXP 	leftbox: autoDraw = False
+119.4520 	EXP 	rightbox: autoDraw = False
+119.4520 	EXP 	cue: autoDraw = False
+119.4520 	EXP 	target: autoDraw = False
+119.4520 	EXP 	fixation: autoDraw = True
+119.4520 	EXP 	leftbox: autoDraw = True
+119.4520 	EXP 	rightbox: autoDraw = True
+119.6027 	EXP 	Device response: <KeyPress from None: t=119.43571629166763, value=space, duration=0.16440895833147806>
+119.9358 	EXP 	cue: autoDraw = True
+119.9527 	EXP 	fixation: autoDraw = False
+120.0360 	EXP 	cue: autoDraw = False
+120.3359 	INFO 	Keyboard events cleared
+120.3359 	EXP 	target: autoDraw = True
+120.4089 	DATA 	Keypress: space
+120.4190 	EXP 	Device response: <KeyPress from None: t=120.40566324999963, value=space, duration=None>
+120.4190 	EXP 	New trial (rep=6, index=2): <Trial 98 (2 in rep 6) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 98, 'thisTrialN': 2, 'thisRepN': 6}>
+120.4358 	EXP 	fixation: autoDraw = False
+120.4358 	EXP 	leftbox: autoDraw = False
+120.4358 	EXP 	rightbox: autoDraw = False
+120.4358 	EXP 	cue: autoDraw = False
+120.4358 	EXP 	target: autoDraw = False
+120.4358 	EXP 	fixation: autoDraw = True
+120.4358 	EXP 	leftbox: autoDraw = True
+120.4358 	EXP 	rightbox: autoDraw = True
+120.5195 	EXP 	Device response: <KeyPress from None: t=120.40566324999963, value=space, duration=0.11232124999878579>
+120.9194 	EXP 	cue: autoDraw = True
+120.9362 	EXP 	fixation: autoDraw = False
+121.0193 	EXP 	cue: autoDraw = False
+121.2193 	INFO 	Keyboard events cleared
+121.2193 	EXP 	target: autoDraw = True
+121.5722 	DATA 	Keypress: space
+121.5855 	EXP 	Device response: <KeyPress from None: t=121.56961991666685, value=space, duration=None>
+121.5855 	EXP 	New trial (rep=6, index=3): <Trial 99 (3 in rep 6) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 99, 'thisTrialN': 3, 'thisRepN': 6}>
+121.6021 	EXP 	fixation: autoDraw = False
+121.6021 	EXP 	leftbox: autoDraw = False
+121.6021 	EXP 	rightbox: autoDraw = False
+121.6021 	EXP 	cue: autoDraw = False
+121.6021 	EXP 	target: autoDraw = False
+121.6021 	EXP 	fixation: autoDraw = True
+121.6021 	EXP 	leftbox: autoDraw = True
+121.6021 	EXP 	rightbox: autoDraw = True
+121.7031 	EXP 	Device response: <KeyPress from None: t=121.56961991666685, value=space, duration=0.12032445833392558>
+122.0861 	EXP 	cue: autoDraw = True
+122.1029 	EXP 	fixation: autoDraw = False
+122.1861 	EXP 	cue: autoDraw = False
+122.4859 	INFO 	Keyboard events cleared
+122.4859 	EXP 	target: autoDraw = True
+122.7793 	DATA 	Keypress: space
+122.7857 	EXP 	Device response: <KeyPress from None: t=122.77607504166735, value=space, duration=None>
+122.7857 	EXP 	New trial (rep=6, index=4): <Trial 100 (4 in rep 6) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 100, 'thisTrialN': 4, 'thisRepN': 6}>
+122.8028 	EXP 	fixation: autoDraw = False
+122.8028 	EXP 	leftbox: autoDraw = False
+122.8028 	EXP 	rightbox: autoDraw = False
+122.8028 	EXP 	cue: autoDraw = False
+122.8028 	EXP 	target: autoDraw = False
+122.8028 	EXP 	fixation: autoDraw = True
+122.8028 	EXP 	leftbox: autoDraw = True
+122.8028 	EXP 	rightbox: autoDraw = True
+122.9188 	EXP 	Device response: <KeyPress from None: t=122.77607504166735, value=space, duration=0.13183137499800068>
+123.2860 	EXP 	cue: autoDraw = True
+123.3026 	EXP 	fixation: autoDraw = False
+123.3859 	EXP 	cue: autoDraw = False
+123.7246 	DATA 	Keypress: space
+123.7356 	EXP 	Device response: <KeyPress from None: t=123.72148366666443, value=space, duration=None>
+123.7859 	INFO 	Keyboard events cleared
+123.7859 	EXP 	target: autoDraw = True
+123.8854 	EXP 	Device response: <KeyPress from None: t=123.72148366666443, value=space, duration=0.1514098333354923>
+124.3467 	DATA 	Keypress: space
+124.3522 	EXP 	Device response: <KeyPress from None: t=124.34357433333207, value=space, duration=None>
+124.3523 	EXP 	New trial (rep=6, index=5): <Trial 101 (5 in rep 6) data={'interval': 0.4, 'condition': 'uncued_400', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 101, 'thisTrialN': 5, 'thisRepN': 6}>
+124.3694 	EXP 	fixation: autoDraw = False
+124.3694 	EXP 	leftbox: autoDraw = False
+124.3694 	EXP 	rightbox: autoDraw = False
+124.3694 	EXP 	cue: autoDraw = False
+124.3694 	EXP 	target: autoDraw = False
+124.3694 	EXP 	fixation: autoDraw = True
+124.3694 	EXP 	leftbox: autoDraw = True
+124.3694 	EXP 	rightbox: autoDraw = True
+124.4862 	EXP 	Device response: <KeyPress from None: t=124.34357433333207, value=space, duration=0.13230633333296282>
+124.8526 	EXP 	cue: autoDraw = True
+124.8696 	EXP 	fixation: autoDraw = False
+124.9525 	EXP 	cue: autoDraw = False
+125.3527 	INFO 	Keyboard events cleared
+125.3526 	EXP 	target: autoDraw = True
+125.4698 	EXP 	Device response: <KeyPress from None: t=125.46755954166656, value=space, duration=None>
+125.4698 	EXP 	New trial (rep=6, index=6): <Trial 102 (6 in rep 6) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 102, 'thisTrialN': 6, 'thisRepN': 6}>
+125.4713 	DATA 	Keypress: space
+125.4854 	EXP 	fixation: autoDraw = False
+125.4854 	EXP 	leftbox: autoDraw = False
+125.4854 	EXP 	rightbox: autoDraw = False
+125.4854 	EXP 	cue: autoDraw = False
+125.4854 	EXP 	target: autoDraw = False
+125.4854 	EXP 	fixation: autoDraw = True
+125.4854 	EXP 	leftbox: autoDraw = True
+125.4854 	EXP 	rightbox: autoDraw = True
+125.6029 	EXP 	Device response: <KeyPress from None: t=125.46755954166656, value=space, duration=0.1283848749990284>
+125.9696 	EXP 	cue: autoDraw = True
+125.9859 	EXP 	fixation: autoDraw = False
+126.0694 	EXP 	cue: autoDraw = False
+126.2693 	INFO 	Keyboard events cleared
+126.2692 	EXP 	target: autoDraw = True
+126.5157 	DATA 	Keypress: space
+126.5203 	EXP 	Device response: <KeyPress from None: t=126.51252545833268, value=space, duration=None>
+126.5204 	EXP 	New trial (rep=6, index=7): <Trial 103 (7 in rep 6) data={'interval': 0.2, 'condition': 'uncued_200', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 103, 'thisTrialN': 7, 'thisRepN': 6}>
+126.5362 	EXP 	fixation: autoDraw = False
+126.5362 	EXP 	leftbox: autoDraw = False
+126.5362 	EXP 	rightbox: autoDraw = False
+126.5362 	EXP 	cue: autoDraw = False
+126.5362 	EXP 	target: autoDraw = False
+126.5362 	EXP 	fixation: autoDraw = True
+126.5362 	EXP 	leftbox: autoDraw = True
+126.5362 	EXP 	rightbox: autoDraw = True
+126.6696 	EXP 	Device response: <KeyPress from None: t=126.51252545833268, value=space, duration=0.14430183333388413>
+127.0360 	EXP 	fixation: autoDraw = False
+127.0360 	EXP 	cue: autoDraw = True
+127.1363 	EXP 	cue: autoDraw = False
+127.3360 	INFO 	Keyboard events cleared
+127.3360 	EXP 	target: autoDraw = True
+127.5527 	EXP 	Device response: <KeyPress from None: t=127.55052166666792, value=space, duration=None>
+127.5527 	EXP 	New trial (rep=6, index=8): <Trial 104 (8 in rep 6) data={'interval': 0.3, 'condition': 'cued_300', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 104, 'thisTrialN': 8, 'thisRepN': 6}>
+127.5542 	DATA 	Keypress: space
+127.5687 	EXP 	fixation: autoDraw = False
+127.5687 	EXP 	leftbox: autoDraw = False
+127.5687 	EXP 	rightbox: autoDraw = False
+127.5687 	EXP 	cue: autoDraw = False
+127.5687 	EXP 	target: autoDraw = False
+127.5687 	EXP 	fixation: autoDraw = True
+127.5687 	EXP 	leftbox: autoDraw = True
+127.5687 	EXP 	rightbox: autoDraw = True
+127.6854 	EXP 	Device response: <KeyPress from None: t=127.55052166666792, value=space, duration=0.1286909583322995>
+128.0520 	EXP 	cue: autoDraw = True
+128.0686 	EXP 	fixation: autoDraw = False
+128.1519 	EXP 	cue: autoDraw = False
+128.4678 	INFO 	Keyboard events cleared
+128.4678 	EXP 	target: autoDraw = True
+128.5269 	DATA 	Keypress: space
+128.5359 	EXP 	Device response: <KeyPress from None: t=128.5224888749981, value=space, duration=None>
+128.5359 	EXP 	New trial (rep=6, index=9): <Trial 105 (9 in rep 6) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 105, 'thisTrialN': 9, 'thisRepN': 6}>
+128.5511 	EXP 	fixation: autoDraw = False
+128.5511 	EXP 	leftbox: autoDraw = False
+128.5511 	EXP 	rightbox: autoDraw = False
+128.5511 	EXP 	cue: autoDraw = False
+128.5511 	EXP 	target: autoDraw = False
+128.5511 	EXP 	fixation: autoDraw = True
+128.5511 	EXP 	leftbox: autoDraw = True
+128.5511 	EXP 	rightbox: autoDraw = True
+128.6514 	EXP 	Device response: <KeyPress from None: t=128.5224888749981, value=space, duration=0.12428687500141677>
+129.0360 	EXP 	cue: autoDraw = True
+129.0527 	EXP 	fixation: autoDraw = False
+129.1355 	EXP 	cue: autoDraw = False
+129.2355 	INFO 	Keyboard events cleared
+129.2354 	EXP 	target: autoDraw = True
+129.5269 	DATA 	Keypress: space
+129.5360 	EXP 	Device response: <KeyPress from None: t=129.52345541666728, value=space, duration=None>
+129.5360 	EXP 	New trial (rep=6, index=10): <Trial 106 (10 in rep 6) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 106, 'thisTrialN': 10, 'thisRepN': 6}>
+129.5520 	EXP 	fixation: autoDraw = False
+129.5520 	EXP 	leftbox: autoDraw = False
+129.5520 	EXP 	rightbox: autoDraw = False
+129.5520 	EXP 	cue: autoDraw = False
+129.5520 	EXP 	target: autoDraw = False
+129.5520 	EXP 	fixation: autoDraw = True
+129.5520 	EXP 	leftbox: autoDraw = True
+129.5520 	EXP 	rightbox: autoDraw = True
+129.6695 	EXP 	Device response: <KeyPress from None: t=129.52345541666728, value=space, duration=0.13230929166456917>
+130.0359 	EXP 	cue: autoDraw = True
+130.0528 	EXP 	fixation: autoDraw = False
+130.1358 	EXP 	cue: autoDraw = False
+130.5361 	INFO 	Keyboard events cleared
+130.5360 	EXP 	target: autoDraw = True
+130.7361 	EXP 	Device response: <KeyPress from None: t=130.73545920833203, value=space, duration=None>
+130.7362 	EXP 	New trial (rep=6, index=11): <Trial 107 (11 in rep 6) data={'interval': 0.3, 'condition': 'uncued_300', 'cueSide': 'right', 'targetSide': 'left', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 107, 'thisTrialN': 11, 'thisRepN': 6}>
+130.7389 	DATA 	Keypress: space
+130.7519 	EXP 	fixation: autoDraw = False
+130.7519 	EXP 	leftbox: autoDraw = False
+130.7519 	EXP 	rightbox: autoDraw = False
+130.7519 	EXP 	cue: autoDraw = False
+130.7519 	EXP 	target: autoDraw = False
+130.7519 	EXP 	fixation: autoDraw = True
+130.7519 	EXP 	leftbox: autoDraw = True
+130.7519 	EXP 	rightbox: autoDraw = True
+130.8695 	EXP 	Device response: <KeyPress from None: t=130.73545920833203, value=space, duration=0.13227666666716686>
+131.2519 	EXP 	fixation: autoDraw = False
+131.2519 	EXP 	cue: autoDraw = True
+131.3520 	EXP 	cue: autoDraw = False
+131.6359 	INFO 	Keyboard events cleared
+131.6359 	EXP 	target: autoDraw = True
+131.7908 	DATA 	Keypress: space
+131.8022 	EXP 	Device response: <KeyPress from None: t=131.78739479166688, value=space, duration=None>
+131.8023 	EXP 	New trial (rep=6, index=12): <Trial 108 (12 in rep 6) data={'interval': 0.1, 'condition': 'cued_100', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 108, 'thisTrialN': 12, 'thisRepN': 6}>
+131.8185 	EXP 	fixation: autoDraw = False
+131.8185 	EXP 	leftbox: autoDraw = False
+131.8185 	EXP 	rightbox: autoDraw = False
+131.8185 	EXP 	cue: autoDraw = False
+131.8185 	EXP 	target: autoDraw = False
+131.8185 	EXP 	fixation: autoDraw = True
+131.8185 	EXP 	leftbox: autoDraw = True
+131.8185 	EXP 	rightbox: autoDraw = True
+131.9186 	EXP 	Device response: <KeyPress from None: t=131.78739479166688, value=space, duration=0.11630954166685115>
+132.3020 	EXP 	cue: autoDraw = True
+132.3185 	EXP 	fixation: autoDraw = False
+132.4025 	EXP 	cue: autoDraw = False
+132.5024 	INFO 	Keyboard events cleared
+132.5024 	EXP 	target: autoDraw = True
+132.7586 	DATA 	Keypress: space
+132.7687 	EXP 	Device response: <KeyPress from None: t=132.75536825000017, value=space, duration=None>
+132.7688 	EXP 	New trial (rep=6, index=13): <Trial 109 (13 in rep 6) data={'interval': 0.2, 'condition': 'cued_200', 'cueSide': 'right', 'targetSide': 'right', 'cued': 'cued', 'correctAns': 'space', 'thisN': 109, 'thisTrialN': 13, 'thisRepN': 6}>
+132.7855 	EXP 	fixation: autoDraw = False
+132.7855 	EXP 	leftbox: autoDraw = False
+132.7855 	EXP 	rightbox: autoDraw = False
+132.7855 	EXP 	cue: autoDraw = False
+132.7855 	EXP 	target: autoDraw = False
+132.7855 	EXP 	fixation: autoDraw = True
+132.7855 	EXP 	leftbox: autoDraw = True
+132.7855 	EXP 	rightbox: autoDraw = True
+132.9353 	EXP 	Device response: <KeyPress from None: t=132.75536825000017, value=space, duration=0.1764162083309202>
+133.2695 	EXP 	cue: autoDraw = True
+133.2859 	EXP 	fixation: autoDraw = False
+133.3686 	EXP 	cue: autoDraw = False
+133.5696 	INFO 	Keyboard events cleared
+133.5696 	EXP 	target: autoDraw = True
+133.8306 	DATA 	Keypress: space
+133.8356 	EXP 	Device response: <KeyPress from None: t=133.8273477916664, value=space, duration=None>
+133.8357 	EXP 	New trial (rep=6, index=14): <Trial 110 (14 in rep 6) data={'interval': 0.4, 'condition': 'cued_400', 'cueSide': 'left', 'targetSide': 'left', 'cued': 'cued', 'correctAns': 'space', 'thisN': 110, 'thisTrialN': 14, 'thisRepN': 6}>
+133.8526 	EXP 	fixation: autoDraw = False
+133.8526 	EXP 	leftbox: autoDraw = False
+133.8526 	EXP 	rightbox: autoDraw = False
+133.8526 	EXP 	cue: autoDraw = False
+133.8526 	EXP 	target: autoDraw = False
+133.8526 	EXP 	fixation: autoDraw = True
+133.8526 	EXP 	leftbox: autoDraw = True
+133.8526 	EXP 	rightbox: autoDraw = True
+134.0023 	EXP 	Device response: <KeyPress from None: t=133.8273477916664, value=space, duration=0.16031491666581132>
+134.3360 	EXP 	cue: autoDraw = True
+134.3527 	EXP 	fixation: autoDraw = False
+134.4358 	EXP 	cue: autoDraw = False
+134.7965 	DATA 	Keypress: space
+134.8022 	EXP 	Device response: <KeyPress from None: t=134.79333658333417, value=space, duration=None>
+134.8360 	INFO 	Keyboard events cleared
+134.8359 	EXP 	target: autoDraw = True
+134.9855 	EXP 	Device response: <KeyPress from None: t=134.79333658333417, value=space, duration=0.1883054166646616>
+135.5693 	EXP 	Device response: <KeyPress from None: t=135.56831804166723, value=space, duration=None>
+135.5694 	EXP 	New trial (rep=6, index=15): <Trial 111 (15 in rep 6) data={'interval': 0.1, 'condition': 'uncued_100', 'cueSide': 'left', 'targetSide': 'right', 'cued': 'uncued', 'correctAns': 'space', 'thisN': 111, 'thisTrialN': 15, 'thisRepN': 6}>
+135.5718 	DATA 	Keypress: space
+135.5852 	EXP 	fixation: autoDraw = False
+135.5852 	EXP 	leftbox: autoDraw = False
+135.5852 	EXP 	rightbox: autoDraw = False
+135.5852 	EXP 	cue: autoDraw = False
+135.5852 	EXP 	target: autoDraw = False
+135.5852 	EXP 	fixation: autoDraw = True
+135.5852 	EXP 	leftbox: autoDraw = True
+135.5852 	EXP 	rightbox: autoDraw = True
+135.7195 	EXP 	Device response: <KeyPress from None: t=135.56831804166723, value=space, duration=0.1492584999978135>
+136.0692 	EXP 	cue: autoDraw = True
+136.0858 	EXP 	fixation: autoDraw = False
+136.1691 	EXP 	cue: autoDraw = False
+136.2692 	INFO 	Keyboard events cleared
+136.2692 	EXP 	target: autoDraw = True
+136.6094 	DATA 	Keypress: space
+136.6188 	EXP 	Device response: <KeyPress from None: t=136.6062612083333, value=space, duration=None>
+136.6638 	INFO 	saved data to /Users/ayk-j/Desktop/Solo Project/data/megha_Attention Solo Project_2026-11-17_14h00.54.678.psydat
+136.6668 	INFO 	saved data to '/Users/ayk-j/Desktop/Solo Project/data/megha_Attention Solo Project_2026-11-17_14h00.54.678.csv'
+136.6706 	INFO 	Stopping keyboard key buffers.
